@@ -24,14 +24,6 @@
 <p>Di panduan ini, kamu bakal diajak <code>step-by-step</code> untuk install RouterOS MikroTik di VirtualBox, mulai dari persiapan sampai bisa login dan mulai ngoprek. Simpel, jelas, dan cocok banget buat pemula yang pengen mulai belajar dunia jaringan.</p>]]></description>
 </item>
 <item>
-    <title>Kamu tahu?</title>
-    <link>https://bayura199.github.io/contoh/</link>
-    <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/contoh/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>Mengenal Jenis MikroTik | RouterOS - RouterBOARD | Apa Bedanya dan Kapan Digunakan?</title>
     <link>https://bayura199.github.io/mengenai-jenis-mikrotik/</link>
     <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
@@ -97,6 +89,18 @@ Rasanya kayak… ada satu bagian dalam diri yang hilang, tapi kita sendiri gak b
     <author>Bayu Anggara</author>
     <guid>https://bayura199.github.io/catatan-alone-really/</guid>
     <description><![CDATA[Aku Merasa Sendiri. Itu kalimat yang seringkali muncul, entah disuarakan atau hanya terlintas dalam hati. Di tengah keramaian, di antara scroll tanpa henti, atau saat malam mulai sunyi, perasaan itu muncul: Sendiri. Tapi, apakah kamu benar-benar sendiri?....]]></description>
+</item>
+<item>
+    <title>Laptop atau PC Lemot? Yuk Pahami Penyebab Laptop/PC Lemot</title>
+    <link>https://bayura199.github.io/panduan-komputer-lemot/</link>
+    <pubDate>Mon, 17 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/panduan-komputer-lemot/</guid>
+    <description><![CDATA[<p>Pernah nggak sih, lagi buka tugas atau kerjaan, eh… laptop-nya malah lemot banget. Baru buka Chrome sama Word aja udah ngeden. Nah, daripada langsung emosi atau buru-buru pengen beli laptop baru, mending kita pahami dulu apa aja sih penyebabnya, dan gimana cara ngatasinnya.</p>
+<p>Yuk, gas!</p>
+<hr>
+<h2 id="1-ram-kecil-dan-udah-kepenuhan">1. RAM Kecil dan Udah Kepenuhan</h2>
+<p>RAM itu ibarat <strong><code>meja kerja</code></strong> buat sistem operasi. Makin <code>besar</code> kapasitas RAM, makin <code>banyak</code> aplikasi dan proses yang bisa jalan barengan tanpa bikin laptop ngos-ngosan. Tapi kalau RAM-nya <code>kecil</code>, baru buka dua atau tiga aplikasi aja udah <code>ngelag</code>, apalagi kalau sambil browsing sambil dengerin musik dan buka dokumen kerjaan.</p>]]></description>
 </item>
 </channel>
 </rss>
