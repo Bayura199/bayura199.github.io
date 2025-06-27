@@ -5,9 +5,11 @@
 
 MikroTik memiliki dua jenis utama yang sering digunakan dalam dunia jaringan komputer, yaitu RouterOS dan RouterBOARD. Keduanya memainkan peran penting dalam manajemen jaringan, namun memiliki fungsi dan bentuk yang berbeda. Untuk memahami perbedaan serta kapan sebaiknya menggunakan salah satu dari keduanya, mari kita bahas satu per satu.
 
+---
 ## RouterOS Mikrotik 
 RouterOS adalah `sistem operasi` berbasis `Linux` yang dikembangkan oleh MikroTik. Sistem operasi ini dirancang khusus untuk keperluan routing, firewall, bandwidth management, VPN, dan berbagai fitur jaringan lainnya. RouterOS bisa diinstal di komputer biasa (PC) dan memiliki fitur yang `melebihi` sebuah `“router”`.
 
+---
 ### Fitur Unggulan RouterOS:
 - User Management (DHCP, Hotspot, Radius, dll).
 
@@ -17,6 +19,7 @@ RouterOS adalah `sistem operasi` berbasis `Linux` yang dikembangkan oleh MikroTi
 - Tunnel (EoIP, PPTP, L2TP, PPPoE, SSTP, OpenVPN).
 - Real-time Tools (Torch, watchdog, mac-ping, MRTG, sniffer).
 
+---
 ### Mengenal Sistem Lisensi RouterOS
 RouterOS `tidak bisa` digunakan secara penuh tanpa lisensi. MikroTik menggunakan `sistem lisensi` berbayar yang dibagi menjadi beberapa level. Masing-masing level memiliki `batasan` dan `fitur` yang berbeda.
 
@@ -43,14 +46,17 @@ RouterOS `tidak bisa` digunakan secara penuh tanpa lisensi. MikroTik menggunakan
 - Kamu bebas `update versi` RouterOS kapan saja secara `gratis`, `kecuali` lisensi demo (`Level 1`), upgrade tidak bisa dilakukan mulai versi 7.8 ke atas.
 {{< /admonition>}}
 
+---
 ### Dimana bisa mendapatkan RouterOS?
 Kamu bisa mengunduh RouterOS pada laman resmi [Mikrotik](https://mikrotik.com/download), lalu cari RouterOS v7 `Stable` bagian `X86 CD Image`.
 ![](/images/x86-download.png "RouterOS - CD Image")
 <br>
 
+---
 ## RouterBOARD Mikrotik
 RouterBOARD adalah `perangkat keras` (`hardware`) yang diproduksi oleh MikroTik dan sudah terinstal RouterOS di dalamnya. RouterBOARD tersedia dalam berbagai model dan ukuran, mulai dari yang kecil seperti RB941 (hAP Lite) untuk kebutuhan rumahan, hingga CCR (Cloud Core Router) untuk kebutuhan jaringan skala besar.
 
+---
 ### RouterBOARD - Type 
 RouterBoard memiliki sistem kode tertentu, contohnya
 ![](/images/rb.png "RouterBoard - Type")
@@ -62,6 +68,7 @@ RouterBoard memiliki sistem kode tertentu, contohnya
 > - **G** - dilengkapi port ethernet Gigabit
 > - **2nD** – dual channel
 
+---
 ### Keunggulan RouterBOARD MikroTik
 RouterBOARD adalah perangkat jaringan yang dirancang khusus oleh MikroTik, dan sudah dilengkapi dengan sistem operasi RouterOS di dalamnya. Inilah beberapa keunggulan utama yang membuat RouterBOARD jadi pilihan favorit banyak teknisi jaringan:
 - **Desain Ringkas dan Hemat Daya** <br>
@@ -81,6 +88,7 @@ MikroTik menyediakan banyak model RouterBOARD, dari yang kecil seperti hAP Lite 
 
 <br>
 
+---
 ## Kapan Harus Menggunakan RouterOS vs RouterBOARD
 
 | Situasi / Kebutuhan| Gunakan RouterOS| Gunakan RouterBOARD                                                                  |
@@ -98,6 +106,7 @@ MikroTik menyediakan banyak model RouterBOARD, dari yang kecil seperti hAP Lite 
 
 <br>
 
+---
 ## Kesimpulan
 MikroTik menyediakan dua solusi utama dalam dunia jaringan: `RouterOS` sebagai `sistem operasi` yang fleksibel dan bisa diinstal pada perangkat sendiri, serta `RouterBOARD`sebagai `perangkat keras` siap pakai yang sudah dilengkapi dengan RouterOS.
 

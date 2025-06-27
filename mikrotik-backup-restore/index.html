@@ -52,7 +52,7 @@
                             "url": "https:\/\/bayura199.github.io\/mikrotik-backup-restore\/images\/header.png",
                             "width":  942 ,
                             "height":  280 
-                        }],"genre": "posts","keywords": "Mikrotik","wordcount":  281 ,
+                        }],"genre": "posts","keywords": "Mikrotik","wordcount":  707 ,
         "url": "https:\/\/bayura199.github.io\/mikrotik-backup-restore\/","datePublished": "2025-06-17T00:00:00+00:00","dateModified": "2025-06-17T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -126,8 +126,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">MikroTik | Backup dan Restore Konfigurasi RouterOS</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Bayu Anggara</a></span>&nbsp;<span class="post-category">included in <a href="/categories/mikrotik/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Mikrotik</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-06-17">2025-06-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;281 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-06-17">2025-06-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;707 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -142,64 +142,231 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#jenis-backup-di-mikrotik">Jenis Backup di MikroTik</a></li>
+    <li><a href="#kenapa-backup-itu-penting">Kenapa Backup Itu Penting?</a>
+      <ul>
+        <li><a href="#jenis-backup-di-mikrotik">Jenis Backup di MikroTik</a></li>
+      </ul>
+    </li>
+    <li><a href="#cara-backup-konfigurasi-mikrotik">Cara Backup Konfigurasi Mikrotik</a>
+      <ul>
+        <li><a href="#backup-via-menu-files--file">Backup via Menu Files &gt; File</a></li>
+        <li><a href="#backup-via-terminal">Backup via Terminal</a></li>
+      </ul>
+    </li>
+    <li><a href="#cara-restore-konfigurasi-mikrotik">Cara Restore Konfigurasi Mikrotik</a></li>
+    <li><a href="#cara-download-file-backup-backup--src">Cara Download File Backup (.backup / .src)</a></li>
+    <li><a href="#penutup">PENUTUP</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p>Kamu tau ga kalau <code>backup</code> ataupun <code>restore</code> sistem itu <code>penting banget</code> buat ngejaga konfigurasi MikroTik kamu tetap <code>aman</code>? Bayangin aja kalau <code>router</code> tiba-tiba error, ke-reset, atau harus ganti perangkat — tanpa backup, semua setting yang udah kamu buat bisa <code>hilang</code> begitu aja.</p>
-<p>Dengan fitur ini, kamu bisa <code>menyimpan</code> semua konfigurasi penting dan <code>mengembalikannya</code> kapan aja. Cocok banget buat jaga-jaga sebelum <code>upgrade</code> firmware, reset router, atau sekadar <code>clone</code> konfigurasi ke perangkat lain.</p>
-<h2 id="jenis-backup-di-mikrotik">Jenis Backup di MikroTik</h2>
-<p>MikroTik punya dua cara utama untuk backup:</p>
-<!-- buat tabel ya -->
-<p>Jenis Backup	Format File	Bisa Dipakai di Router Lain?	Keterangan
-Backup	.backup	❌ Tidak disarankan	Backup biner (terikat hardware)
-Export	.rsc	✅ Bisa	Berisi script konfigurasi (teks)</p>
-<p>🛠️ Cara Backup
-🔹 Metode 1: Backup File .backup
-bash
-Copy
-Edit
-/system backup save name=config-backup
-Hasilnya: file config-backup.backup akan tersimpan di Files.</p>
-<p>🔹 Metode 2: Export File .rsc
-bash
-Copy
-Edit
-/export file=config-export
-Hasilnya: file config-export.rsc akan tersimpan di Files dan bisa dibuka dengan teks editor.</p>
-<p>🔁 Cara Restore
-🔹 Dari File .backup
-bash
-Copy
-Edit
-/system backup load name=config-backup.backup
-Router akan restart otomatis setelah restore.</p>
-<p>🔹 Dari File .rsc
-Upload file .rsc ke router (via Winbox &gt; Files).</p>
-<p>Jalankan perintah:</p>
-<p>bash
-Copy
-Edit
-/import file-name=config-export.rsc
-⚠️ Pastikan konfigurasi sebelumnya sudah di-reset dulu untuk mencegah konflik setting.</p>
-<p>💡 Tips &amp; Rekomendasi
-Selalu backup sebelum:</p>
-<p>Reset konfigurasi</p>
-<p>Upgrade RouterOS</p>
-<p>Menyalin konfigurasi ke router lain</p>
-<p>Simpan file backup di tempat aman, bisa di PC, flashdisk, atau cloud.</p>
-<p>Gunakan .rsc kalau ingin lebih fleksibel dan portabel.</p>
-<p>✅ Kesimpulan
-Backup dan restore di MikroTik itu mudah dan sangat penting untuk mencegah kehilangan konfigurasi. Gunakan jenis backup yang sesuai dengan kebutuhanmu. Jangan tunggu error baru backup ya bro, mending sedia payung sebelum hujan 😎</p>
-<p><figure><a class="lightgallery" href="/images/ram.png" title="Performance" data-thumbnail="/images/ram.png" data-sub-html="<h2>Task Manager</h2><p>Performance</p>">
+            </div><div class="content" id="content"><p>Kamu tau ga kalau <code>backup</code> ataupun <code>restore</code> sistem itu <code>penting banget</code> buat ngejaga konfigurasi MikroTik kamu tetap aman. Bayangin aja kalau router tiba-tiba error, ke-reset, atau harus ganti perangkat tanpa backup, semua setting yang udah kamu buat bisa <code>hilang</code> begitu aja.</p>
+<p>Dengan fitur ini, kamu bisa <code>menyimpan</code> semua konfigurasi penting dan <code>mengembalikannya</code> kapan aja. Cocok banget buat jaga-jaga sebelum <code>upgrade</code> firmware, <code>reset</code> router, atau sekadar <code>clone</code> konfigurasi ke perangkat lain.</p>
+<hr>
+<h2 id="kenapa-backup-itu-penting">Kenapa Backup Itu Penting?</h2>
+<p>Sebelum masuk ke teknis, coba kita pahami dulu. Backup itu semacam <code>safety net</code>. Kalau suatu saat router kamu error, kena virus, atau mau upgrade perangkat, kamu nggak perlu ngulang semua konfigurasi dari awal. Tinggal <code>restore</code>, dan router langsung balik seperti <code>sebelumnya</code>.</p>
+<hr>
+<h3 id="jenis-backup-di-mikrotik">Jenis Backup di MikroTik</h3>
+<p>MikroTik menyediakan <code>dua</code> metode utama untuk menyimpan konfigurasi: <br>
+<strong>1. Backup File (.backup)</strong> <br>
+Format ini menyimpan semua konfigurasi, termasuk <code>password</code> dan <code>user</code>. File ini hanya <code>bisa digunakan </code>di perangkat MikroTik yang <code>sama persis</code> (terutama dari segi versi dan model).</p>
+<ul>
+<li>
+<p>Tidak dapat dibaca text editor.</p>
+</li>
+<li>
+<p>Membackup keseluruhan konfigurasi router.</p>
+</li>
+<li>
+<p>Create return point (dapat kembali seperti semula).</p>
+</li>
+<li>
+<p>Jika restore menggunakan .backup, semua config akan <code>terhapus dan diganti</code> dengan config .backup.</p>
+</li>
+</ul>
+<p><strong>2. Export/Script File (.rsc)</strong>
+Ini menyimpan konfigurasi dalam bentuk <code>script</code>. Cocok kalau kamu mau <code>migrasi</code> setting ke perangkat MikroTik lain, atau mau simpan settingan dengan lebih fleksibel.</p>
+<ul>
+<li>
+<p>Berupa script, dapat dibaca dengan text editor.</p>
+</li>
+<li>
+<p>Dapat membackup sebagian atau keseluruhan konfigurasi router.</p>
+</li>
+<li>
+<p>Tidak mengembalikan ke konfigurasi seperti semula, melainkan menambahkan script tertentu pada konfigurasi utama.</p>
+</li>
+<li>
+<p>Jika resotre menggunakan .src semua config akan <code>ditimpa</code> dengan config .src, pastikan config sebelumnya dihapus untuk menghindari eror konfigurasi.</p>
+</li>
+</ul>
+<br>
+<hr>
+<h2 id="cara-backup-konfigurasi-mikrotik">Cara Backup Konfigurasi Mikrotik</h2>
+<p>Saat melakukan backup, terdapat 2 cara yaitu menggunakan <code>Terminal</code> dan Menu <code>Files &gt; File</code>.</p>
+<h3 id="backup-via-menu-files--file">Backup via Menu Files &gt; File</h3>
+<p>Saat melakukan backup lewat menu ini, kamu hanya dapat melakukan backup dengan format <code>.backup</code>.
+<figure><a class="lightgallery" href="/mikrotik-backup-restore/images/backup-file.png" title="/mikrotik-backup-restore/images/backup-file.png" data-thumbnail="/mikrotik-backup-restore/images/backup-file.png" data-sub-html="<h2>Penjelasan Menu</h2>">
         <img
             class="lazyload"
             src="/svg/loading.min.svg"
-            data-src="/images/ram.png"
-            data-srcset="/images/ram.png, /images/ram.png 1.5x, /images/ram.png 2x"
+            data-src="/mikrotik-backup-restore/images/backup-file.png"
+            data-srcset="/mikrotik-backup-restore/images/backup-file.png, /mikrotik-backup-restore/images/backup-file.png 1.5x, /mikrotik-backup-restore/images/backup-file.png 2x"
             data-sizes="auto"
-            alt="/images/ram.png" />
-    </a><figcaption class="image-caption">Task Manager</figcaption>
-    </figure></p></div><div class="post-footer" id="post-footer">
+            alt="/mikrotik-backup-restore/images/backup-file.png" width="938" height="447" />
+    </a><figcaption class="image-caption">Penjelasan Menu</figcaption>
+    </figure>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>Kamu dapat klik menu <code>Backup</code> dan isi <code>nama</code> file backup dan <code>password</code> jika perlu.</li>
+<li>File akan otomatis tersimpan di <code>penyimpanan internal</code> router mikrotik dengan format <code>.backup</code>.</li>
+</ul>
+</div>
+        </div>
+    </div></p>
+<h3 id="backup-via-terminal">Backup via Terminal</h3>
+<p>Dengan menggunakan terminal kamu <code>dapat</code> melakukan backup dengan format <code>.src</code> maupun <code>.backup</code>. Backup dapat dilakukan dengan cara
+<figure><a class="lightgallery" href="/mikrotik-backup-restore/images/backup-terminal.png" title="/mikrotik-backup-restore/images/backup-terminal.png" data-thumbnail="/mikrotik-backup-restore/images/backup-terminal.png" data-sub-html="<h2>Backup via terminal</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/mikrotik-backup-restore/images/backup-terminal.png"
+            data-srcset="/mikrotik-backup-restore/images/backup-terminal.png, /mikrotik-backup-restore/images/backup-terminal.png 1.5x, /mikrotik-backup-restore/images/backup-terminal.png 2x"
+            data-sizes="auto"
+            alt="/mikrotik-backup-restore/images/backup-terminal.png" width="761" height="437" />
+    </a><figcaption class="image-caption">Backup via terminal</figcaption>
+    </figure></p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Backup .src<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Dengan melakukan ini semua config akan tersimpan.</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="k">export</span> <span class="n">file</span><span class="o">=</span><span class="n">nama</span><span class="o">-</span><span class="n">file</span></span></span></code></pre></div></div>
+<p>Tambahkan <em><code>/bagian-backup export</code> file=nama-file</em> | Jika hanya ingin backup config tertentu. Contoh:</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="o">/</span><span class="n">ip</span> <span class="n">address</span> <span class="k">export</span> <span class="n">file</span><span class="o">=</span><span class="n">nama</span><span class="o">-</span><span class="n">file</span></span></span></code></pre></div></div>
+</div>
+        </div>
+    </div>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Backup .backup<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>Dengan melakukan ini semua config akan tersimpan.</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">/system backup save name=nama-file</span></span></code></pre></div></div></div>
+        </div>
+    </div>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><strong>File nya ada dimana banggg??</strong> File akan otomatis tersimpan di penyimpanan internal router, tepatnya di Menu <code>Files &gt; File</code>.</div>
+        </div>
+    </div>
+<br>
+<hr>
+<h2 id="cara-restore-konfigurasi-mikrotik">Cara Restore Konfigurasi Mikrotik</h2>
+<p>Kamu dapat melakukan dapat melakukan restore dengan <code>2</code> cara, yaitu via <code>terminal</code> (khusus .src) atau menu <code>Files &gt; File</code> (khusus .backup). Tapi supaya lebih mudah, kita gunakan Menu dari <code>Files &gt; File</code> aja ya ges ya, sama aja kok..! Cukup gunakan <code>upload</code> untuk <code>memasukan file backup</code> dan <code>restore</code> untuk <code>mengembalikan</code> config baru.</p>
+<p><figure><a class="lightgallery" href="/mikrotik-backup-restore/images/menu-files.png" title="/mikrotik-backup-restore/images/menu-files.png" data-thumbnail="/mikrotik-backup-restore/images/menu-files.png" data-sub-html="<h2>Files menu</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/mikrotik-backup-restore/images/menu-files.png"
+            data-srcset="/mikrotik-backup-restore/images/menu-files.png, /mikrotik-backup-restore/images/menu-files.png 1.5x, /mikrotik-backup-restore/images/menu-files.png 2x"
+            data-sizes="auto"
+            alt="/mikrotik-backup-restore/images/menu-files.png" width="931" height="445" />
+    </a><figcaption class="image-caption">Files menu</figcaption>
+    </figure>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Penjelasan<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ol>
+<li>
+<p><strong>Backup</strong> <br>
+<code>Fungsi</code>: Menyimpan seluruh konfigurasi router saat ini ke dalam file .backup.</p>
+</li>
+<li>
+<p><strong>Restore</strong> <br>
+<code>Fungsi:</code> Untuk mengembalikan konfigurasi router dari file .backup maupun .src yang sebelumnya sudah ada. <br>
+<code>Cara pakai:</code> <br></p>
+<ul>
+<li>
+<p>Pastikan file .backup dan atau .src sudah ada di list file (upload dulu kalau perlu).</p>
+</li>
+<li>
+<p>Pilih file .backup dan atau .src, lalu klik tombol Restore.</p>
+</li>
+<li>
+<p>Router akan restart otomatis, dan semua setting akan kembali seperti isi file backup tersebut.</p>
+</li>
+<li>
+<p>Semua konfigurasi yang ada sekarang akan dihapus/ditimpa dan diganti total dengan isi file backup.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Upload</strong> <br>
+<code>Fungsi</code>: Untuk mengirim file dari komputer ke MikroTik, biasanya file .backup, .rsc, script, atau file lain. <br>
+<code>Cara pakai:</code> <br></p>
+<ul>
+<li>
+<p>Klik tombol Upload</p>
+</li>
+<li>
+<p>Pilih file dari komputermu (misalnya config-ku.rsc)</p>
+</li>
+<li>
+<p>File akan muncul di list Files di MikroTik</p>
+</li>
+</ul>
+</li>
+</ol>
+</div>
+        </div>
+    </div></p>
+<br>
+<hr>
+<h2 id="cara-download-file-backup-backup--src">Cara Download File Backup (.backup / .src)</h2>
+<p>Mudahhh, buka Menu <code>Files &gt; File</code> lalu <code>klik kanan </code>file yang mau di download dan pilih download.
+<figure><a class="lightgallery" href="/mikrotik-backup-restore/images/download-files.png" title="/mikrotik-backup-restore/images/download-files.png" data-thumbnail="/mikrotik-backup-restore/images/download-files.png" data-sub-html="<h2>Download files</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/mikrotik-backup-restore/images/download-files.png"
+            data-srcset="/mikrotik-backup-restore/images/download-files.png, /mikrotik-backup-restore/images/download-files.png 1.5x, /mikrotik-backup-restore/images/download-files.png 2x"
+            data-sizes="auto"
+            alt="/mikrotik-backup-restore/images/download-files.png" width="930" height="462" />
+    </a><figcaption class="image-caption">Download files</figcaption>
+    </figure></p>
+<br>
+<hr>
+<h2 id="penutup">PENUTUP</h2>
+<p>Nah, itu dia pembahasan mengenai <code>backup</code> dan <code>restore</code> konfigurasi MikroTik. Intinya, backup itu ibarat <code>sabuk pengaman</code>, mungkin kamu jarang pakai, tapi bakal <code>sangat ngebantu</code> waktu terjadi hal-hal yang gak diinginkan. Daripada nanti harus setting ulang dari nol, mending siapin backup dari sekarang. Gampang banget kok, cuma butuh beberapa baris perintah atau klik-klik di Winbox.</p>
+<p>Dan jangan lupa, selalu <code>simpan file</code> backup/export kamu di tempat yang <code>aman</code>, seperti di laptop, flashdisk, atau cloud storage. Karena file-nya <code>tidak otomatis tersimpan</code> di komputer, melainkan di <code>dalam router</code>.</p>
+<br>
+<p align="center"><strong>Yoo segitu aja gais. Sampai jumpa di artikel selanjutnya iyes..!</strong></p>
+<hr></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">

@@ -1,0 +1,6 @@
+# cd .. (folder utama)
+# hugo --cleanDestinationDir
+# cd public
+# git add .
+# git commit -m "pesan"
+# git push origin master

@@ -8,6 +8,7 @@ Dengan fitur ini, kita bisa bikin beberapa user login dengan `hak akses` yang be
 
 Yuk, kita pelajari bareng gimana cara nambah user dan atur hak aksesnya di MikroTik!
 
+---
 ## Apa Itu User Login di Mikrotik?
 `User login` di MikroTik adalah akun yang digunakan untuk `mengakses` sistem RouterOS. Akses ini bisa dilakukan lewat:
 - Winbox
@@ -22,6 +23,7 @@ Setiap `user` bisa dibatasi hak aksesnya menggunakan sistem `group`. `Manajemen 
 Sesi user yang sedang melakukan koneksi ke router dapat dilihat pada menu `System > Users > Active Users`.
 {{< /admonition>}}
 
+---
 ## Pengenalan User Group di Mikrotik
 MikroTik menyediakan 3 group default yang sudah punya hak akses masing-masing:
 
@@ -61,12 +63,15 @@ Group secara `default` telah mempunyai `kebijakan` terhadap `hak akses` sistem, 
 - Centang/hapus centang untuk melakukan filter akses sistem.
 {{< /admonition>}}
 
-
+---
 ## Tambah User 
 Kamu juga bisa `menambahkan user` dengan `group tertentu` untuk mengakses sistem, sebagai contoh disini saya akan menambahkan akun untuk `anak magang` yang hanya dapat `melihat sistem` dan hanya dapat `login dengan IP` tertentu. 
 ![](/images/user-add.png "Users add")
 
+---
 ## Kesimpulan
 Dengan fitur `User & Group` di MikroTik, kamu bisa mengatur siapa yang bisa `mengakses router` dan seberapa besar `kontrol` yang mereka punya. Ini penting banget untuk `menjaga` keamanan dan efisiensi pengelolaan jaringan, apalagi kalau sudah melibatkan banyak orang.
 
 Jangan lupa, selalu sesuaikan hak akses dengan kebutuhan. Jangan kasih akses `full` ke sembarang orang ya ges ya..!
+
+---

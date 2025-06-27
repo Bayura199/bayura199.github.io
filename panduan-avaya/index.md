@@ -57,6 +57,7 @@ Lalu masuk ke mode pengaturan awal untuk Setup Avaya
 {{< figure src="/images/setup-done.jpg" width="300px" >}}
 <br>
 
+---
 ## Permasalahan Umum Dan Solusi
 ### 1. Stuck di “Discovering…”
 **Penyebab** : DHCP server tidak tersedia/kabel LAN ruksak/port switch mati.

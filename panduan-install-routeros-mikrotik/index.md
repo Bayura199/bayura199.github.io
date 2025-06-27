@@ -54,6 +54,7 @@ ip address print
 Sampai disini, seharusnya Mikrotik kita sudah dapat di `remote` oleh winbox, jika `tidak terbaca` pada `Neigborsh`, login manual dengan memasukan `ip, username dan password` yang sudah dibuat.
 ![](/images/remote-winbox.png "Remote winbox")
 
+---
 ## Hasil
 Setelah login, akan terdapat informasi mengenai RouterOS. Karena RouterOS kita free, maka untuk dia berada di level 0 dan hanya berlaku selama 1 hari. Kamu bisa cek info level RouterOS pada menu `System > License`
 ![](/images/winbox.png "winbox")

@@ -31,6 +31,7 @@
     <guid>https://bayura199.github.io/mengenai-jenis-mikrotik/</guid>
     <description><![CDATA[<!-- more -->
 <p>MikroTik memiliki dua jenis utama yang sering digunakan dalam dunia jaringan komputer, yaitu RouterOS dan RouterBOARD. Keduanya memainkan peran penting dalam manajemen jaringan, namun memiliki fungsi dan bentuk yang berbeda. Untuk memahami perbedaan serta kapan sebaiknya menggunakan salah satu dari keduanya, mari kita bahas satu per satu.</p>
+<hr>
 <h2 id="routeros-mikrotik">RouterOS Mikrotik</h2>
 <p>RouterOS adalah <code>sistem operasi</code> berbasis <code>Linux</code> yang dikembangkan oleh MikroTik. Sistem operasi ini dirancang khusus untuk keperluan routing, firewall, bandwidth management, VPN, dan berbagai fitur jaringan lainnya. RouterOS bisa diinstal di komputer biasa (PC) dan memiliki fitur yang <code>melebihi</code> sebuah <code>“router”</code>.</p>]]></description>
 </item>
