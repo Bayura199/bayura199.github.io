@@ -1,0 +1,22 @@
+---
+#weight: 3 # Untuk mengatur posisi content Semakin kecil nilai weight, maka semakin atas/awal dia ditampilkan.
+title: ""
+date: 2025-06-17
+lastmod: 2025-06-17
+draft: false
+author: "Bayu Anggara"
+authorLink: ""
+description: ""
+images: []
+resources:
+- name: "featured-image"
+  src: "images/header.png"
+tags: ["", ""]
+categories: [""]
+
+lightgallery: true
+---
+
+<!--more-->
+
+![Performance](/images/ram.png "Task Manager")

@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Networking - Category - MyArsip</title>
+        <link>http://localhost:1313/categories/networking/</link>
+        <description>Networking - Category - MyArsip</description>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Wed, 18 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/networking/" rel="self" type="application/rss+xml" /><item>
+    <title>Mengenal TCP/IP: Fondasi Komunikasi Jaringan</title>
+    <link>http://localhost:1313/mengenai-tpc-ip/</link>
+    <pubDate>Wed, 18 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>http://localhost:1313/mengenai-tpc-ip/</guid>
+    <description><![CDATA[Penjelasan ringkas mengenai TCP/IP sebagai kumpulan protokol inti dalam komunikasi jaringan komputer.]]></description>
+</item>
+</channel>
+</rss>
