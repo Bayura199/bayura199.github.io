@@ -1,3 +1,17 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Access Point - Tag - MyArsip</title><link>https://bayura199.github.io/tags/access-point/</link><description>Access Point - Tag - MyArsip</description><generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/access-point/" rel="self" type="application/rss+xml"/><item><title>Panduan Adopt &amp; Setting Access Point UniFi U6-Pro ke UniFi Controller</title><link>https://bayura199.github.io/panduan-adopt-u6-pro/</link><pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate><author>Bayu Anggara</author><guid>https://bayura199.github.io/panduan-adopt-u6-pro/</guid><description><![CDATA[<p>Perangkat UniFi U6-Pro adalah access point dari <code>Ubiquiti</code> yang mendukung <a href="https://www.intel.co.id/content/www/id/id/gaming/resources/wifi-6.html" target="_blank">WiFi 6</a> dan banyak digunakan di jaringan perusahaan atau institusi. Untuk bisa mengelola dan memantau perangkat ini, kita perlu melakukan proses <code>adoption</code> ke UniFi Controller (UniFi Network Application).</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Access Point - Tag - MyArsip</title>
+        <link>https://bayura199.github.io/tags/access-point/</link>
+        <description>Access Point - Tag - MyArsip</description>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Tue, 10 Dec 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/access-point/" rel="self" type="application/rss+xml" /><item>
+    <title>Panduan Adopt &amp; Setting Access Point UniFi U6-Pro ke UniFi Controller</title>
+    <link>https://bayura199.github.io/panduan-adopt-u6-pro/</link>
+    <pubDate>Tue, 10 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/panduan-adopt-u6-pro/</guid>
+    <description><![CDATA[<p>Perangkat UniFi U6-Pro adalah access point dari <code>Ubiquiti</code> yang mendukung <a href="https://www.intel.co.id/content/www/id/id/gaming/resources/wifi-6.html" target="_blank">WiFi 6</a> dan banyak digunakan di jaringan perusahaan atau institusi. Untuk bisa mengelola dan memantau perangkat ini, kita perlu melakukan proses <code>adoption</code> ke UniFi Controller (UniFi Network Application).</p>
 <p>Berikut langkah-langkahnya secara urutan teknis dan lengkap:</p>
-<hr>]]></description></item></channel></rss>
+<hr>]]></description>
+</item>
+</channel>
+</rss>

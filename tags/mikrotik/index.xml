@@ -1,6 +1,44 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Mikrotik - Tag - MyArsip</title><link>https://bayura199.github.io/tags/mikrotik/</link><description>Mikrotik - Tag - MyArsip</description><generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/mikrotik/" rel="self" type="application/rss+xml"/><item><title>Panduan Install RouterOS Mikrotik Pada Virtual Box</title><link>https://bayura199.github.io/panduan-install-routeros-mikrotik/</link><pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><author>Bayu Anggara</author><guid>https://bayura199.github.io/panduan-install-routeros-mikrotik/</guid><description><![CDATA[<!-- more -->
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Mikrotik - Tag - MyArsip</title>
+        <link>https://bayura199.github.io/tags/mikrotik/</link>
+        <description>Mikrotik - Tag - MyArsip</description>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Wed, 18 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/mikrotik/" rel="self" type="application/rss+xml" /><item>
+    <title>Panduan Install RouterOS Mikrotik Pada Virtual Box</title>
+    <link>https://bayura199.github.io/panduan-install-routeros-mikrotik/</link>
+    <pubDate>Wed, 18 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/panduan-install-routeros-mikrotik/</guid>
+    <description><![CDATA[<!-- more -->
 <p>Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa <code>belajar</code> MikroTik tanpa harus keluar <code>biaya</code> besar. Dengan bantuan <code>VirtualBox</code> dan <code>RouterOS</code>, kamu bisa bikin <code>lab virtual</code> sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.</p>
-<p>Di panduan ini, kamu bakal diajak <code>step-by-step</code> untuk install RouterOS MikroTik di VirtualBox, mulai dari persiapan sampai bisa login dan mulai ngoprek. Simpel, jelas, dan cocok banget buat pemula yang pengen mulai belajar dunia jaringan.</p>]]></description></item><item><title>Mengenal Jenis MikroTik | RouterOS - RouterBOARD | Apa Bedanya dan Kapan Digunakan?</title><link>https://bayura199.github.io/mengenai-jenis-mikrotik/</link><pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate><author>Bayu Anggara</author><guid>https://bayura199.github.io/mengenai-jenis-mikrotik/</guid><description><![CDATA[<!-- more -->
+<p>Di panduan ini, kamu bakal diajak <code>step-by-step</code> untuk install RouterOS MikroTik di VirtualBox, mulai dari persiapan sampai bisa login dan mulai ngoprek. Simpel, jelas, dan cocok banget buat pemula yang pengen mulai belajar dunia jaringan.</p>]]></description>
+</item>
+<item>
+    <title>Mengenal Jenis MikroTik | RouterOS - RouterBOARD | Apa Bedanya dan Kapan Digunakan?</title>
+    <link>https://bayura199.github.io/mengenai-jenis-mikrotik/</link>
+    <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/mengenai-jenis-mikrotik/</guid>
+    <description><![CDATA[<!-- more -->
 <p>MikroTik memiliki dua jenis utama yang sering digunakan dalam dunia jaringan komputer, yaitu RouterOS dan RouterBOARD. Keduanya memainkan peran penting dalam manajemen jaringan, namun memiliki fungsi dan bentuk yang berbeda. Untuk memahami perbedaan serta kapan sebaiknya menggunakan salah satu dari keduanya, mari kita bahas satu per satu.</p>
 <h2 id="routeros-mikrotik">RouterOS Mikrotik</h2>
-<p>RouterOS adalah <code>sistem operasi</code> berbasis <code>Linux</code> yang dikembangkan oleh MikroTik. Sistem operasi ini dirancang khusus untuk keperluan routing, firewall, bandwidth management, VPN, dan berbagai fitur jaringan lainnya. RouterOS bisa diinstal di komputer biasa (PC) dan memiliki fitur yang <code>melebihi</code> sebuah <code>“router”</code>.</p>]]></description></item><item><title>MikroTik | Backup dan Restore Konfigurasi RouterOS</title><link>https://bayura199.github.io/mikrotik-backup-restore/</link><pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate><author>Bayu Anggara</author><guid>https://bayura199.github.io/mikrotik-backup-restore/</guid><description>Kamu tau ga kalau backup ataupun restore sistem itu penting banget buat ngejaga konfigurasi MikroTik kamu tetap aman? Bayangin aja kalau router tiba-tiba error, ke-reset, atau harus ganti perangkat — tanpa backup, semua setting yang udah kamu buat bisa hilang begitu aja. Dengan fitur ini, kamu bisa menyimpan semua konfigurasi penting dan mengembalikannya kapan aja. Cocok banget buat jaga-jaga sebelum upgrade firmware, reset router, atau sekadar clone konfigurasi ke perangkat lain.</description></item><item><title>Mikrotik | User Login Management - Group</title><link>https://bayura199.github.io/mikrotik-user-login-management/</link><pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate><author>Bayu Anggara</author><guid>https://bayura199.github.io/mikrotik-user-login-management/</guid><description>Tahu kah kamu kalau di MikroTik kita bisa bikin banyak user dengan akses yang berbeda-beda? Jadi nggak semua orang harus pakai akun admin. Fitur ini berguna banget buat membagi tugas, menjaga keamanan, dan memudahkan pengelolaan jaringan, apalagi kalau mulai ada tim atau teman yang bantuin.</description></item></channel></rss>
+<p>RouterOS adalah <code>sistem operasi</code> berbasis <code>Linux</code> yang dikembangkan oleh MikroTik. Sistem operasi ini dirancang khusus untuk keperluan routing, firewall, bandwidth management, VPN, dan berbagai fitur jaringan lainnya. RouterOS bisa diinstal di komputer biasa (PC) dan memiliki fitur yang <code>melebihi</code> sebuah <code>“router”</code>.</p>]]></description>
+</item>
+<item>
+    <title>MikroTik | Backup dan Restore Konfigurasi RouterOS</title>
+    <link>https://bayura199.github.io/mikrotik-backup-restore/</link>
+    <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/mikrotik-backup-restore/</guid>
+    <description><![CDATA[Kamu tau ga kalau backup ataupun restore sistem itu penting banget buat ngejaga konfigurasi MikroTik kamu tetap aman? Bayangin aja kalau router tiba-tiba error, ke-reset, atau harus ganti perangkat — tanpa backup, semua setting yang udah kamu buat bisa hilang begitu aja. Dengan fitur ini, kamu bisa menyimpan semua konfigurasi penting dan mengembalikannya kapan aja. Cocok banget buat jaga-jaga sebelum upgrade firmware, reset router, atau sekadar clone konfigurasi ke perangkat lain.]]></description>
+</item>
+<item>
+    <title>Mikrotik | User Login Management - Group</title>
+    <link>https://bayura199.github.io/mikrotik-user-login-management/</link>
+    <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/mikrotik-user-login-management/</guid>
+    <description><![CDATA[Tahu kah kamu kalau di MikroTik kita bisa bikin banyak user dengan akses yang berbeda-beda? Jadi nggak semua orang harus pakai akun admin. Fitur ini berguna banget buat membagi tugas, menjaga keamanan, dan memudahkan pengelolaan jaringan, apalagi kalau mulai ada tim atau teman yang bantuin.]]></description>
+</item>
+</channel>
+</rss>

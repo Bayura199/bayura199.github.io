@@ -1,5 +1,35 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Support - Tag - MyArsip</title><link>https://bayura199.github.io/tags/support/</link><description>Support - Tag - MyArsip</description><generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/support/" rel="self" type="application/rss+xml"/><item><title>Panduan Setup dan Permasalahan Umum Avaya 1608-I (IP Phone seri 1600)</title><link>https://bayura199.github.io/panduan-avaya/</link><pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><author>Bayu Anggara</author><guid>https://bayura199.github.io/panduan-avaya/</guid><description><![CDATA[<p>Avaya 1608-I adalah IP Phone seri 1600 yang umum digunakan untuk sistem komunikasi VoIP berbasis <code>Avaya Communication Manager</code> atau IP Office. Pada artikel kali ini akan membahas panduan <code>setup</code> perangkat Avaya 1608-I, mulai dari langkah awal instalasi hingga konfigurasi dasar yang perlu diperhatikan. Selain itu, artikel ini juga akan mengulas beberapa <code>permasalahan umum</code> yang sering terjadi pada perangkat Avaya 1608-I, seperti error jaringan, konflik IP, tidak bisa login, lengkap dengan solusi praktis untuk mengatasinya.</p>]]></description></item><item><title>Laptop atau PC Lemot? Yuk Pahami Penyebab Laptop/PC Lemot</title><link>https://bayura199.github.io/panduan-komputer-lemot/</link><pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate><author>Bayu Anggara</author><guid>https://bayura199.github.io/panduan-komputer-lemot/</guid><description><![CDATA[<p>Pernah nggak sih, lagi buka tugas atau kerjaan, eh… laptop-nya malah lemot banget. Baru buka Chrome sama Word aja udah ngeden. Nah, daripada langsung emosi atau buru-buru pengen beli laptop baru, mending kita pahami dulu apa aja sih penyebabnya, dan gimana cara ngatasinnya.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Support - Tag - MyArsip</title>
+        <link>https://bayura199.github.io/tags/support/</link>
+        <description>Support - Tag - MyArsip</description>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Wed, 18 Dec 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/support/" rel="self" type="application/rss+xml" /><item>
+    <title>Panduan Setup dan Permasalahan Umum Avaya 1608-I  (IP Phone seri 1600)</title>
+    <link>https://bayura199.github.io/panduan-avaya/</link>
+    <pubDate>Wed, 18 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/panduan-avaya/</guid>
+    <description><![CDATA[<p>Avaya 1608-I adalah IP Phone seri 1600 yang umum digunakan untuk sistem komunikasi VoIP berbasis <code>Avaya Communication Manager</code> atau IP Office. Pada artikel kali ini akan membahas panduan <code>setup</code> perangkat Avaya 1608-I, mulai dari langkah awal instalasi hingga konfigurasi dasar yang perlu diperhatikan. Selain itu, artikel ini juga akan mengulas beberapa <code>permasalahan umum</code> yang sering terjadi pada perangkat Avaya 1608-I, seperti error jaringan, konflik IP, tidak bisa login, lengkap dengan solusi praktis untuk mengatasinya.</p>]]></description>
+</item>
+<item>
+    <title>Laptop atau PC Lemot? Yuk Pahami Penyebab Laptop/PC Lemot</title>
+    <link>https://bayura199.github.io/panduan-komputer-lemot/</link>
+    <pubDate>Mon, 17 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/panduan-komputer-lemot/</guid>
+    <description><![CDATA[<p>Pernah nggak sih, lagi buka tugas atau kerjaan, eh… laptop-nya malah lemot banget. Baru buka Chrome sama Word aja udah ngeden. Nah, daripada langsung emosi atau buru-buru pengen beli laptop baru, mending kita pahami dulu apa aja sih penyebabnya, dan gimana cara ngatasinnya.</p>
 <p>Yuk, gas!</p>
 <hr>
 <h2 id="1-ram-kecil-dan-udah-kepenuhan">1. RAM Kecil dan Udah Kepenuhan</h2>
-<p>RAM itu ibarat <strong><code>meja kerja</code></strong> buat sistem operasi. Makin <code>besar</code> kapasitas RAM, makin <code>banyak</code> aplikasi dan proses yang bisa jalan barengan tanpa bikin laptop ngos-ngosan. Tapi kalau RAM-nya <code>kecil</code>, baru buka dua atau tiga aplikasi aja udah <code>ngelag</code>, apalagi kalau sambil browsing sambil dengerin musik dan buka dokumen kerjaan.</p>]]></description></item><item><title>Panduan Tentang Kapan, Bagaimana dan Apa Yang Harus Dilakukan Saat Install Ulang Windows 10 atau 11</title><link>https://bayura199.github.io/panduan-install-ulang-windows/</link><pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate><author>Bayu Anggara</author><guid>https://bayura199.github.io/panduan-install-ulang-windows/</guid><description>Panduan ini menjelaskan secara lengkap langkah-langkah instalasi ulang Windows 10/11 --- baik melalui flashdisk maupun fitur reset bawaan Windows.</description></item></channel></rss>
+<p>RAM itu ibarat <strong><code>meja kerja</code></strong> buat sistem operasi. Makin <code>besar</code> kapasitas RAM, makin <code>banyak</code> aplikasi dan proses yang bisa jalan barengan tanpa bikin laptop ngos-ngosan. Tapi kalau RAM-nya <code>kecil</code>, baru buka dua atau tiga aplikasi aja udah <code>ngelag</code>, apalagi kalau sambil browsing sambil dengerin musik dan buka dokumen kerjaan.</p>]]></description>
+</item>
+<item>
+    <title>Panduan Tentang Kapan, Bagaimana dan Apa Yang Harus Dilakukan Saat Install Ulang Windows 10 atau 11</title>
+    <link>https://bayura199.github.io/panduan-install-ulang-windows/</link>
+    <pubDate>Mon, 17 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/panduan-install-ulang-windows/</guid>
+    <description><![CDATA[Panduan ini menjelaskan secara lengkap langkah-langkah instalasi ulang Windows 10/11 --- baik melalui flashdisk maupun fitur reset bawaan Windows.]]></description>
+</item>
+</channel>
+</rss>

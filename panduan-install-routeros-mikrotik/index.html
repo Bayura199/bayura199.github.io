@@ -1,17 +1,335 @@
-<!doctype html><html lang=id><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><title>Panduan Install RouterOS Mikrotik Pada Virtual Box - MyArsip</title><meta name=Description content="Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.."><meta property="og:url" content="https://bayura199.github.io/panduan-install-routeros-mikrotik/">
-<meta property="og:site_name" content="MyArsip"><meta property="og:title" content="Panduan Install RouterOS Mikrotik Pada Virtual Box"><meta property="og:description" content="Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.."><meta property="og:locale" content="id"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-06-18T00:00:00+00:00"><meta property="article:modified_time" content="2025-06-18T00:00:00+00:00"><meta property="article:tag" content="Mikrotik"><meta property="og:image" content="https://bayura199.github.io/panduan-install-routeros-mikrotik/images/header.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://bayura199.github.io/panduan-install-routeros-mikrotik/images/header.png"><meta name=twitter:title content="Panduan Install RouterOS Mikrotik Pada Virtual Box"><meta name=twitter:description content="Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.."><meta name=application-name content="My cool site"><meta name=apple-mobile-web-app-title content="My cool site"><meta name=referrer content="no-referrer"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel=icon href=/images/image.jpg type=image/x-icon><link rel=canonical href=https://bayura199.github.io/panduan-install-routeros-mikrotik/><link rel=prev href=https://bayura199.github.io/mengenai-jenis-mikrotik/><link rel=next href=https://bayura199.github.io/mengenai-tpc-ip/><link rel=stylesheet href=/css/style.min.css><link rel=preload href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css></noscript><link rel=preload href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Panduan Install RouterOS Mikrotik Pada Virtual Box","inLanguage":"id","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/bayura199.github.io\/panduan-install-routeros-mikrotik\/"},"image":[{"@type":"ImageObject","url":"https:\/\/bayura199.github.io\/panduan-install-routeros-mikrotik\/images\/header.png","width":941,"height":278}],"genre":"posts","keywords":"Mikrotik","wordcount":381,"url":"https:\/\/bayura199.github.io\/panduan-install-routeros-mikrotik\/","datePublished":"2025-06-18T00:00:00+00:00","dateModified":"2025-06-18T00:00:00+00:00","publisher":{"@type":"Organization","name":""},"author":{"@type":"Person","name":"Bayu Anggara"},"description":"Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.."}</script></head><body data-header-desktop=fixed data-header-mobile=auto><script>(window.localStorage&&localStorage.getItem("theme")?localStorage.getItem("theme")==="dark":"auto"==="auto"?window.matchMedia("(prefers-color-scheme: dark)").matches:"auto"==="dark")&&document.body.setAttribute("theme","dark")</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/ title=MyArsip><span class=header-title-pre><i class='fas fa-folder-open'></i>&nbsp;</span>My Arsip</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/posts/>Posts </a><a class=menu-item href=/tags/>Tags </a><a class=menu-item href=/categories/>Categories </a><a class=menu-item href=/about/>About </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
-<input type=text placeholder=Search... id=search-input-desktop>
-<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search><i class="fas fa-search fa-fw" aria-hidden=true></i>
-</a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Clear><i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
-</a><span class="search-button search-loading" id=search-loading-desktop><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i>
-</span></span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme"><i class="fas fa-adjust fa-fw" aria-hidden=true></i></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/ title=MyArsip><span class=header-title-pre><i class='fas fa-folder-open'></i>&nbsp;</span>My Arsip</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><div class=search-wrapper><div class="search mobile" id=search-mobile><input type=text placeholder=Search... id=search-input-mobile>
-<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search><i class="fas fa-search fa-fw" aria-hidden=true></i>
-</a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Clear><i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
-</a><span class="search-button search-loading" id=search-loading-mobile><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i></span></div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>Cancel</a></div><a class=menu-item href=/posts/ title>Posts</a><a class=menu-item href=/tags/ title>Tags</a><a class=menu-item href=/categories/ title>Categories</a><a class=menu-item href=/about/ title>About</a><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
-<i class="fas fa-adjust fa-fw" aria-hidden=true></i></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>Contents</h2><div class=toc-content id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Panduan Install RouterOS Mikrotik Pada Virtual Box</h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Bayu Anggara</a></span>&nbsp;<span class=post-category>included in <a href=/categories/mikrotik/><i class="far fa-folder fa-fw" aria-hidden=true></i>Mikrotik</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw" aria-hidden=true></i>&nbsp;<time datetime=2025-06-18>2025-06-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden=true></i>&nbsp;381 words&nbsp;
-<i class="far fa-clock fa-fw" aria-hidden=true></i>&nbsp;2 minutes&nbsp;</div></div><div class=featured-image><img class=lazyload src=/svg/loading.min.svg data-src=/panduan-install-routeros-mikrotik/images/header.png data-srcset="/panduan-install-routeros-mikrotik/images/header.png, /panduan-install-routeros-mikrotik/images/header.png 1.5x, /panduan-install-routeros-mikrotik/images/header.png 2x" data-sizes=auto alt=/panduan-install-routeros-mikrotik/images/header.png title="Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.."></div><div class="details toc" id=toc-static data-kept><div class="details-summary toc-title"><span>Contents</span>
-<span><i class="details-icon fas fa-angle-right" aria-hidden=true></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#persiapan>Persiapan</a></li><li><a href=#instalasi>Instalasi</a></li><li><a href=#hasil>Hasil</a></li></ul></nav></div></div><div class=content id=content><p>Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa <code>belajar</code> MikroTik tanpa harus keluar <code>biaya</code> besar. Dengan bantuan <code>VirtualBox</code> dan <code>RouterOS</code>, kamu bisa bikin <code>lab virtual</code> sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.</p><p>Di panduan ini, kamu bakal diajak <code>step-by-step</code> untuk install RouterOS MikroTik di VirtualBox, mulai dari persiapan sampai bisa login dan mulai ngoprek. Simpel, jelas, dan cocok banget buat pemula yang pengen mulai belajar dunia jaringan.</p><p align=center><strong>Yuk ah cusss...!!</strong></p><hr><h2 id=persiapan>Persiapan</h2><p>Pastikan kamu sudah memiliki hal berikut:</p><ul><li><p>Mikrotik RouterOS</p></li><li><p>Winbox</p></li><li><p>Virtual Box</p></li></ul><div class="details admonition info open"><div class="details-summary admonition-title"><i class="icon fas fa-info-circle fa-fw" aria-hidden=true></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden=true></i></div><div class=details-content><div class=admonition-content>Kamu bisa download <code>RouterOS</code> dan <code>Winbox</code> pada laman resmi Mikrotik <a href=https://download.mikrotik.com/routeros/7.19.2/mikrotik-7.19.2.iso target=_blank rel="noopener noreffer">disini</a></div></div></div><hr><h2 id=instalasi>Instalasi</h2><p>Buka virtual box lalu klik icon <code>New</code> dan isi nama, type dan version (pastikan 64-bit) lalu klik finish.<figure><a class=lightgallery href=/panduan-install-routeros-mikrotik/images/add.png title=/panduan-install-routeros-mikrotik/images/add.png data-thumbnail=/panduan-install-routeros-mikrotik/images/add.png data-sub-html="<h2>Add VM Baru</h2>"><img class=lazyload src=/svg/loading.min.svg data-src=/panduan-install-routeros-mikrotik/images/add.png data-srcset="/panduan-install-routeros-mikrotik/images/add.png, /panduan-install-routeros-mikrotik/images/add.png 1.5x, /panduan-install-routeros-mikrotik/images/add.png 2x" data-sizes=auto alt=/panduan-install-routeros-mikrotik/images/add.png width=1197 height=721></a><figcaption class=image-caption>Add VM Baru</figcaption></figure></p><p>Lalu kita masukan <code>DVD ISO</code> mikrotik yang telah didownload tadi, jika sudah klik <code>Mount and Retry Boot</code>. Jika sudah, maka tampilan akan mengarah ke software installation. Disini kita bisa bebas memilih fitur apa saja yang ingin di download.<figure><a class=lightgallery href=/panduan-install-routeros-mikrotik/images/software-installation.png title=/panduan-install-routeros-mikrotik/images/software-installation.png data-thumbnail=/panduan-install-routeros-mikrotik/images/software-installation.png data-sub-html="<h2>Software instalation</h2>"><img class=lazyload src=/svg/loading.min.svg data-src=/panduan-install-routeros-mikrotik/images/software-installation.png data-srcset="/panduan-install-routeros-mikrotik/images/software-installation.png, /panduan-install-routeros-mikrotik/images/software-installation.png 1.5x, /panduan-install-routeros-mikrotik/images/software-installation.png 2x" data-sizes=auto alt=/panduan-install-routeros-mikrotik/images/software-installation.png width=720 height=401></a><figcaption class=image-caption>Software instalation</figcaption></figure><div class="details admonition info open"><div class="details-summary admonition-title"><i class="icon fas fa-info-circle fa-fw" aria-hidden=true></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden=true></i></div><div class=details-content><div class=admonition-content><ul><li>Gunakan <code>arrow key</code> pada keyboard untuk mengarahkan</li><li>Gunakan <code>space</code> pada keyboard untuk memilih/menghapus fitur</li><li>Tekan <code>a</code> pada keyboard untuk pilih semua fitur</li><li>Tekan <code>i</code> pada keyboard untuk melakukan proses install</li><li>Tekan <code>q</code> pada keyboard untuk membatalkan proses install</li></ul></div></div></div></p><p>Setelah tahap install selesai, dan terdapat pesan <code>"Press ENTER to Reboot"</code>, lepaskan DVD ISO yang supaya instalasi tersimpan dan tidak berulang. Pada menu Devices > Optical > Remove Disk Form&mldr; Setelah di lepas, klik <code>ENTER</code> dan tunggu sampai menampilkan laman <code>login</code>.<figure><a class=lightgallery href=/panduan-install-routeros-mikrotik/images/forcemount-after-install.png title=/panduan-install-routeros-mikrotik/images/forcemount-after-install.png data-thumbnail=/panduan-install-routeros-mikrotik/images/forcemount-after-install.png data-sub-html="<h2>Lepas DVD ISO</h2>"><img class=lazyload src=/svg/loading.min.svg data-src=/panduan-install-routeros-mikrotik/images/forcemount-after-install.png data-srcset="/panduan-install-routeros-mikrotik/images/forcemount-after-install.png, /panduan-install-routeros-mikrotik/images/forcemount-after-install.png 1.5x, /panduan-install-routeros-mikrotik/images/forcemount-after-install.png 2x" data-sizes=auto alt=/panduan-install-routeros-mikrotik/images/forcemount-after-install.png width=858 height=484></a><figcaption class=image-caption>Lepas DVD ISO</figcaption></figure><div class="details admonition info open"><div class="details-summary admonition-title"><i class="icon fas fa-info-circle fa-fw" aria-hidden=true></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden=true></i></div><div class=details-content><div class=admonition-content><ul><li>Jika <code>lupa</code> melepaskan DVD ISO, kamu bisa melakukan <code>instalasi ulang</code>.</li><li><strong>username : admin<br>password : (kosong)</strong></li></ul></div></div></div></p><p>Setelah login, kamu akan diminta konfirmasi <code>lisensi</code>. Jika tidak punya, ketik <code>n</code> lalu <code>ENTER</code> dan masukan <code>password baru</code>.<figure><a class=lightgallery href=/panduan-install-routeros-mikrotik/images/confim-lisence.png title=/panduan-install-routeros-mikrotik/images/confim-lisence.png data-thumbnail=/panduan-install-routeros-mikrotik/images/confim-lisence.png data-sub-html="<h2>Confirm license</h2>"><img class=lazyload src=/svg/loading.min.svg data-src=/panduan-install-routeros-mikrotik/images/confim-lisence.png data-srcset="/panduan-install-routeros-mikrotik/images/confim-lisence.png, /panduan-install-routeros-mikrotik/images/confim-lisence.png 1.5x, /panduan-install-routeros-mikrotik/images/confim-lisence.png 2x" data-sizes=auto alt=/panduan-install-routeros-mikrotik/images/confim-lisence.png width=724 height=497></a><figcaption class=image-caption>Confirm license</figcaption></figure></p><p>Supaya RouterOS kita bisa <code>remote</code> Winbox, tambahkan IP pada ether 1 dan lihat apakah sudah tersimpan.</p><div class="code-block code-line-numbers open" style="counter-reset:code-block 0"><div class="code-header language-cli"><span class=code-title><i class="arrow fas fa-angle-right fa-fw" aria-hidden=true></i></span>
-<span class=ellipses><i class="fas fa-ellipsis-h fa-fw" aria-hidden=true></i></span>
-<span class=copy title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden=true></i></span></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>ip address add address=192.168.x.x/24 interface=ether1
-</span></span><span class=line><span class=cl>ip address print</span></span></code></pre></div></div><p><figure><a class=lightgallery href=/panduan-install-routeros-mikrotik/images/add-ip.png title=/panduan-install-routeros-mikrotik/images/add-ip.png data-thumbnail=/panduan-install-routeros-mikrotik/images/add-ip.png data-sub-html="<h2>Add Address</h2>"><img class=lazyload src=/svg/loading.min.svg data-src=/panduan-install-routeros-mikrotik/images/add-ip.png data-srcset="/panduan-install-routeros-mikrotik/images/add-ip.png, /panduan-install-routeros-mikrotik/images/add-ip.png 1.5x, /panduan-install-routeros-mikrotik/images/add-ip.png 2x" data-sizes=auto alt=/panduan-install-routeros-mikrotik/images/add-ip.png width=717 height=490></a><figcaption class=image-caption>Add Address</figcaption></figure>Sampai disini, seharusnya Mikrotik kita sudah dapat di <code>remote</code> oleh winbox, jika <code>tidak terbaca</code> pada <code>Neigborsh</code>, login manual dengan memasukan <code>ip, username dan password</code> yang sudah dibuat.<figure><a class=lightgallery href=/panduan-install-routeros-mikrotik/images/remote-winbox.png title=/panduan-install-routeros-mikrotik/images/remote-winbox.png data-thumbnail=/panduan-install-routeros-mikrotik/images/remote-winbox.png data-sub-html="<h2>Remote winbox</h2>"><img class=lazyload src=/svg/loading.min.svg data-src=/panduan-install-routeros-mikrotik/images/remote-winbox.png data-srcset="/panduan-install-routeros-mikrotik/images/remote-winbox.png, /panduan-install-routeros-mikrotik/images/remote-winbox.png 1.5x, /panduan-install-routeros-mikrotik/images/remote-winbox.png 2x" data-sizes=auto alt=/panduan-install-routeros-mikrotik/images/remote-winbox.png width=1631 height=623></a><figcaption class=image-caption>Remote winbox</figcaption></figure></p><h2 id=hasil>Hasil</h2><p>Setelah login, akan terdapat informasi mengenai RouterOS. Karena RouterOS kita free, maka untuk dia berada di level 0 dan hanya berlaku selama 1 hari. Kamu bisa cek info level RouterOS pada menu <code>System > License</code><figure><a class=lightgallery href=/panduan-install-routeros-mikrotik/images/winbox.png title=/panduan-install-routeros-mikrotik/images/winbox.png data-thumbnail=/panduan-install-routeros-mikrotik/images/winbox.png data-sub-html="<h2>winbox</h2>"><img class=lazyload src=/svg/loading.min.svg data-src=/panduan-install-routeros-mikrotik/images/winbox.png data-srcset="/panduan-install-routeros-mikrotik/images/winbox.png, /panduan-install-routeros-mikrotik/images/winbox.png 1.5x, /panduan-install-routeros-mikrotik/images/winbox.png 2x" data-sizes=auto alt=/panduan-install-routeros-mikrotik/images/winbox.png width=807 height=693></a><figcaption class=image-caption>winbox</figcaption></figure></p><hr><p>Baca juga <a href=/panduan-avaya/ rel>Panduan Install Agent</a></p><hr></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>Updated on 2025-06-18</span></div></div><div class=post-info-line><div class=post-info-md><span><a class=link-to-markdown href=/panduan-install-routeros-mikrotik/index.md target=_blank>Read Markdown</a></span></div><div class=post-info-share><span><a href=javascript:void(0); title="Share on X" data-sharer=x data-url=https://bayura199.github.io/panduan-install-routeros-mikrotik/ data-title="Panduan Install RouterOS Mikrotik Pada Virtual Box" data-hashtags=Mikrotik><i class="fab fa-x-twitter fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="Share on Threads" data-sharer=threads data-url=https://bayura199.github.io/panduan-install-routeros-mikrotik/ data-title="Panduan Install RouterOS Mikrotik Pada Virtual Box"><i class="fab fa-threads fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="Share on Facebook" data-sharer=facebook data-url=https://bayura199.github.io/panduan-install-routeros-mikrotik/ data-hashtag=Mikrotik><i class="fab fa-facebook-square fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="Share on Linkedin" data-sharer=linkedin data-url=https://bayura199.github.io/panduan-install-routeros-mikrotik/><i class="fab fa-linkedin fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="Share on WhatsApp" data-sharer=whatsapp data-url=https://bayura199.github.io/panduan-install-routeros-mikrotik/ data-title="Panduan Install RouterOS Mikrotik Pada Virtual Box" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="Share on Pinterest" data-sharer=pinterest data-url=https://bayura199.github.io/panduan-install-routeros-mikrotik/ data-description="Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.."><i class="fab fa-pinterest fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="Share on Reddit" data-sharer=reddit data-url=https://bayura199.github.io/panduan-install-routeros-mikrotik/><i class="fab fa-reddit fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="Share on Line" data-sharer=line data-url=https://bayura199.github.io/panduan-install-routeros-mikrotik/ data-title="Panduan Install RouterOS Mikrotik Pada Virtual Box"><i data-svg-src=https://cdn.jsdelivr.net/npm/simple-icons@14.9.0/icons/line.svg aria-hidden=true></i></a><a href="https://t.me/share/url?url=https%3a%2f%2fbayura199.github.io%2fpanduan-install-routeros-mikrotik%2f&amp;text=Panduan%20Install%20RouterOS%20Mikrotik%20Pada%20Virtual%20Box" target=_blank title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden=true></i></a></span></div></div></div><div class=post-info-more><section class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/tags/mikrotik/>Mikrotik</a></section><section><span><a href=javascript:void(0); onclick=window.history.back()>Back</a></span>&nbsp;|&nbsp;<span><a href=/>Home</a></span></section></div><div class=post-nav><a href=/mengenai-jenis-mikrotik/ class=prev rel=prev title="Mengenal Jenis MikroTik | RouterOS - RouterBOARD | Apa Bedanya dan Kapan Digunakan?"><i class="fas fa-angle-left fa-fw" aria-hidden=true></i>Mengenal Jenis MikroTik | RouterOS - RouterBOARD | Apa Bedanya dan Kapan Digunakan?</a>
-<a href=/mengenai-tpc-ip/ class=next rel=next title="Mengenal TCP/IP: Fondasi Komunikasi Jaringan">Mengenal TCP/IP: Fondasi Komunikasi Jaringan<i class="fas fa-angle-right fa-fw" aria-hidden=true></i></a></div></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.138.0">Hugo</a> | Theme - <a href=https://github.com/dillonzq/LoveIt target=_blank rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden=true></i> LoveIt</a></div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw" aria-hidden=true></i><span itemprop=copyrightYear>2024 - 2025</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/ target=_blank>Bayu Anggara</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top"><i class="fas fa-arrow-up fa-fw" aria-hidden=true></i></a></div><div id=fixed-buttons-hidden><a href=# id=view-comments class=fixed-button title="View Comments"><i class="fas fa-comment fa-fw" aria-hidden=true></i></a></div><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css><script src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js></script><script src=https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js></script><script src=https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js></script><script src=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js></script><script src=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js></script><script src=https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js></script><script src=https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js></script><script src=https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js></script><script>window.config={comment:{},lightgallery:!0,search:{highlightTag:"em",lunrIndexURL:"/index.json",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"lunr"}}</script><script src=/js/theme.min.js></script></body></html>
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Panduan Install RouterOS Mikrotik Pada Virtual Box - MyArsip</title><meta name="Description" content="Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.."><meta property="og:url" content="https://bayura199.github.io/panduan-install-routeros-mikrotik/">
+  <meta property="og:site_name" content="MyArsip">
+  <meta property="og:title" content="Panduan Install RouterOS Mikrotik Pada Virtual Box">
+  <meta property="og:description" content="Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan..">
+  <meta property="og:locale" content="id">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-06-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-06-18T00:00:00+00:00">
+    <meta property="article:tag" content="Mikrotik">
+    <meta property="og:image" content="https://bayura199.github.io/panduan-install-routeros-mikrotik/images/header.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://bayura199.github.io/panduan-install-routeros-mikrotik/images/header.png">
+  <meta name="twitter:title" content="Panduan Install RouterOS Mikrotik Pada Virtual Box">
+  <meta name="twitter:description" content="Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan..">
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c">
+  <link rel="icon" href="/images/image.jpg" type="image/x-icon" />
+
+
+<link rel="canonical" href="https://bayura199.github.io/panduan-install-routeros-mikrotik/" />
+
+
+  <link rel="prev" href="https://bayura199.github.io/contoh/" />
+  <link rel="next" href="https://bayura199.github.io/mengenai-tpc-ip/" />
+
+
+
+<link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css"></noscript>
+
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Panduan Install RouterOS Mikrotik Pada Virtual Box",
+        "inLanguage": "id",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/bayura199.github.io\/panduan-install-routeros-mikrotik\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/bayura199.github.io\/panduan-install-routeros-mikrotik\/images\/header.png",
+                            "width":  941 ,
+                            "height":  278 
+                        }],"genre": "posts","keywords": "Mikrotik","wordcount":  381 ,
+        "url": "https:\/\/bayura199.github.io\/panduan-install-routeros-mikrotik\/","datePublished": "2025-06-18T00:00:00+00:00","dateModified": "2025-06-18T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Bayu Anggara"
+            },"description": "Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="MyArsip"><span class="header-title-pre"><i class='fas fa-folder-open'></i>&nbsp;</span>My Arsip</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="MyArsip"><span class="header-title-pre"><i class='fas fa-folder-open'></i>&nbsp;</span>My Arsip</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Panduan Install RouterOS Mikrotik Pada Virtual Box</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Bayu Anggara</a></span>&nbsp;<span class="post-category">included in <a href="/categories/mikrotik/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Mikrotik</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-06-18">2025-06-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;381 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/panduan-install-routeros-mikrotik/images/header.png"
+        data-srcset="/panduan-install-routeros-mikrotik/images/header.png, /panduan-install-routeros-mikrotik/images/header.png 1.5x, /panduan-install-routeros-mikrotik/images/header.png 2x"
+        data-sizes="auto"
+        alt="/panduan-install-routeros-mikrotik/images/header.png"
+        title="Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.." /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#persiapan">Persiapan</a></li>
+    <li><a href="#instalasi">Instalasi</a></li>
+    <li><a href="#hasil">Hasil</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><!-- more -->
+<p>Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa <code>belajar</code> MikroTik tanpa harus keluar <code>biaya</code> besar. Dengan bantuan <code>VirtualBox</code> dan <code>RouterOS</code>, kamu bisa bikin <code>lab virtual</code> sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.</p>
+<p>Di panduan ini, kamu bakal diajak <code>step-by-step</code> untuk install RouterOS MikroTik di VirtualBox, mulai dari persiapan sampai bisa login dan mulai ngoprek. Simpel, jelas, dan cocok banget buat pemula yang pengen mulai belajar dunia jaringan.</p>
+<p align = "center"><strong>Yuk ah cusss...!!</strong></p>
+<hr>
+<h2 id="persiapan">Persiapan</h2>
+<p>Pastikan kamu sudah memiliki hal berikut:</p>
+<ul>
+<li>
+<p>Mikrotik RouterOS</p>
+</li>
+<li>
+<p>Winbox</p>
+</li>
+<li>
+<p>Virtual Box</p>
+</li>
+</ul>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Kamu bisa download <code>RouterOS</code> dan <code>Winbox</code> pada laman resmi Mikrotik <a href="https://download.mikrotik.com/routeros/7.19.2/mikrotik-7.19.2.iso" target="_blank" rel="noopener noreffer ">disini</a></div>
+        </div>
+    </div>
+<hr>
+<h2 id="instalasi">Instalasi</h2>
+<p>Buka virtual box lalu klik icon <code>New</code> dan isi nama, type dan version (pastikan 64-bit) lalu klik finish.
+<figure><a class="lightgallery" href="/panduan-install-routeros-mikrotik/images/add.png" title="/panduan-install-routeros-mikrotik/images/add.png" data-thumbnail="/panduan-install-routeros-mikrotik/images/add.png" data-sub-html="<h2>Add VM Baru</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/panduan-install-routeros-mikrotik/images/add.png"
+            data-srcset="/panduan-install-routeros-mikrotik/images/add.png, /panduan-install-routeros-mikrotik/images/add.png 1.5x, /panduan-install-routeros-mikrotik/images/add.png 2x"
+            data-sizes="auto"
+            alt="/panduan-install-routeros-mikrotik/images/add.png" width="1197" height="721" />
+    </a><figcaption class="image-caption">Add VM Baru</figcaption>
+    </figure></p>
+<p>Lalu kita masukan <code>DVD ISO</code> mikrotik yang telah didownload tadi, jika sudah klik <code>Mount and Retry Boot</code>. Jika sudah, maka tampilan akan mengarah ke software installation. Disini kita bisa bebas memilih fitur apa saja yang ingin di download.
+<figure><a class="lightgallery" href="/panduan-install-routeros-mikrotik/images/software-installation.png" title="/panduan-install-routeros-mikrotik/images/software-installation.png" data-thumbnail="/panduan-install-routeros-mikrotik/images/software-installation.png" data-sub-html="<h2>Software instalation</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/panduan-install-routeros-mikrotik/images/software-installation.png"
+            data-srcset="/panduan-install-routeros-mikrotik/images/software-installation.png, /panduan-install-routeros-mikrotik/images/software-installation.png 1.5x, /panduan-install-routeros-mikrotik/images/software-installation.png 2x"
+            data-sizes="auto"
+            alt="/panduan-install-routeros-mikrotik/images/software-installation.png" width="720" height="401" />
+    </a><figcaption class="image-caption">Software instalation</figcaption>
+    </figure>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>Gunakan <code>arrow key</code> pada keyboard untuk mengarahkan</li>
+<li>Gunakan <code>space</code> pada keyboard untuk memilih/menghapus fitur</li>
+<li>Tekan <code>a</code> pada keyboard untuk pilih semua fitur</li>
+<li>Tekan <code>i</code> pada keyboard untuk melakukan proses install</li>
+<li>Tekan <code>q</code> pada keyboard untuk membatalkan proses install</li>
+</ul>
+</div>
+        </div>
+    </div></p>
+<p>Setelah tahap install selesai, dan terdapat pesan <code>&quot;Press ENTER to Reboot&quot;</code>, lepaskan DVD ISO yang supaya instalasi tersimpan dan tidak berulang. Pada menu Devices &gt; Optical &gt; Remove Disk Form&hellip; Setelah di lepas, klik <code>ENTER</code> dan tunggu sampai menampilkan laman <code>login</code>.
+<figure><a class="lightgallery" href="/panduan-install-routeros-mikrotik/images/forcemount-after-install.png" title="/panduan-install-routeros-mikrotik/images/forcemount-after-install.png" data-thumbnail="/panduan-install-routeros-mikrotik/images/forcemount-after-install.png" data-sub-html="<h2>Lepas DVD ISO</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/panduan-install-routeros-mikrotik/images/forcemount-after-install.png"
+            data-srcset="/panduan-install-routeros-mikrotik/images/forcemount-after-install.png, /panduan-install-routeros-mikrotik/images/forcemount-after-install.png 1.5x, /panduan-install-routeros-mikrotik/images/forcemount-after-install.png 2x"
+            data-sizes="auto"
+            alt="/panduan-install-routeros-mikrotik/images/forcemount-after-install.png" width="858" height="484" />
+    </a><figcaption class="image-caption">Lepas DVD ISO</figcaption>
+    </figure>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>Jika <code>lupa</code> melepaskan DVD ISO, kamu bisa melakukan <code>instalasi ulang</code>.</li>
+<li><strong>username : admin <br> password : (kosong)</strong></li>
+</ul>
+</div>
+        </div>
+    </div></p>
+<p>Setelah login, kamu akan diminta konfirmasi <code>lisensi</code>. Jika tidak punya, ketik <code>n</code> lalu <code>ENTER</code> dan masukan <code>password baru</code>.
+<figure><a class="lightgallery" href="/panduan-install-routeros-mikrotik/images/confim-lisence.png" title="/panduan-install-routeros-mikrotik/images/confim-lisence.png" data-thumbnail="/panduan-install-routeros-mikrotik/images/confim-lisence.png" data-sub-html="<h2>Confirm license</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/panduan-install-routeros-mikrotik/images/confim-lisence.png"
+            data-srcset="/panduan-install-routeros-mikrotik/images/confim-lisence.png, /panduan-install-routeros-mikrotik/images/confim-lisence.png 1.5x, /panduan-install-routeros-mikrotik/images/confim-lisence.png 2x"
+            data-sizes="auto"
+            alt="/panduan-install-routeros-mikrotik/images/confim-lisence.png" width="724" height="497" />
+    </a><figcaption class="image-caption">Confirm license</figcaption>
+    </figure></p>
+<p>Supaya RouterOS kita bisa <code>remote</code> Winbox, tambahkan IP pada ether 1 dan lihat apakah sudah tersimpan.</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-cli">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ip address add address=192.168.x.x/24 interface=ether1
+</span></span><span class="line"><span class="cl">ip address print</span></span></code></pre></div></div>
+<p><figure><a class="lightgallery" href="/panduan-install-routeros-mikrotik/images/add-ip.png" title="/panduan-install-routeros-mikrotik/images/add-ip.png" data-thumbnail="/panduan-install-routeros-mikrotik/images/add-ip.png" data-sub-html="<h2>Add Address</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/panduan-install-routeros-mikrotik/images/add-ip.png"
+            data-srcset="/panduan-install-routeros-mikrotik/images/add-ip.png, /panduan-install-routeros-mikrotik/images/add-ip.png 1.5x, /panduan-install-routeros-mikrotik/images/add-ip.png 2x"
+            data-sizes="auto"
+            alt="/panduan-install-routeros-mikrotik/images/add-ip.png" width="717" height="490" />
+    </a><figcaption class="image-caption">Add Address</figcaption>
+    </figure>
+Sampai disini, seharusnya Mikrotik kita sudah dapat di <code>remote</code> oleh winbox, jika <code>tidak terbaca</code> pada <code>Neigborsh</code>, login manual dengan memasukan <code>ip, username dan password</code> yang sudah dibuat.
+<figure><a class="lightgallery" href="/panduan-install-routeros-mikrotik/images/remote-winbox.png" title="/panduan-install-routeros-mikrotik/images/remote-winbox.png" data-thumbnail="/panduan-install-routeros-mikrotik/images/remote-winbox.png" data-sub-html="<h2>Remote winbox</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/panduan-install-routeros-mikrotik/images/remote-winbox.png"
+            data-srcset="/panduan-install-routeros-mikrotik/images/remote-winbox.png, /panduan-install-routeros-mikrotik/images/remote-winbox.png 1.5x, /panduan-install-routeros-mikrotik/images/remote-winbox.png 2x"
+            data-sizes="auto"
+            alt="/panduan-install-routeros-mikrotik/images/remote-winbox.png" width="1631" height="623" />
+    </a><figcaption class="image-caption">Remote winbox</figcaption>
+    </figure></p>
+<h2 id="hasil">Hasil</h2>
+<p>Setelah login, akan terdapat informasi mengenai RouterOS. Karena RouterOS kita free, maka untuk dia berada di level 0 dan hanya berlaku selama 1 hari. Kamu bisa cek info level RouterOS pada menu <code>System &gt; License</code>
+<figure><a class="lightgallery" href="/panduan-install-routeros-mikrotik/images/winbox.png" title="/panduan-install-routeros-mikrotik/images/winbox.png" data-thumbnail="/panduan-install-routeros-mikrotik/images/winbox.png" data-sub-html="<h2>winbox</h2>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/panduan-install-routeros-mikrotik/images/winbox.png"
+            data-srcset="/panduan-install-routeros-mikrotik/images/winbox.png, /panduan-install-routeros-mikrotik/images/winbox.png 1.5x, /panduan-install-routeros-mikrotik/images/winbox.png 2x"
+            data-sizes="auto"
+            alt="/panduan-install-routeros-mikrotik/images/winbox.png" width="807" height="693" />
+    </a><figcaption class="image-caption">winbox</figcaption>
+    </figure></p>
+<hr>
+<p>Baca juga <a href="/panduan-avaya/" rel="">Panduan Install Agent</a></p>
+<hr>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2025-06-18</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/panduan-install-routeros-mikrotik/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on X" data-sharer="x" data-url="https://bayura199.github.io/panduan-install-routeros-mikrotik/" data-title="Panduan Install RouterOS Mikrotik Pada Virtual Box" data-hashtags="Mikrotik"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Threads" data-sharer="threads" data-url="https://bayura199.github.io/panduan-install-routeros-mikrotik/" data-title="Panduan Install RouterOS Mikrotik Pada Virtual Box"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://bayura199.github.io/panduan-install-routeros-mikrotik/" data-hashtag="Mikrotik"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://bayura199.github.io/panduan-install-routeros-mikrotik/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://bayura199.github.io/panduan-install-routeros-mikrotik/" data-title="Panduan Install RouterOS Mikrotik Pada Virtual Box" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Pinterest" data-sharer="pinterest" data-url="https://bayura199.github.io/panduan-install-routeros-mikrotik/" data-description="Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa belajar MikroTik tanpa harus keluar biaya besar. Dengan bantuan VirtualBox dan RouterOS, kamu bisa bikin lab virtual sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.."><i class="fab fa-pinterest fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="https://bayura199.github.io/panduan-install-routeros-mikrotik/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://bayura199.github.io/panduan-install-routeros-mikrotik/" data-title="Panduan Install RouterOS Mikrotik Pada Virtual Box"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@14.9.0/icons/line.svg" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=https%3a%2f%2fbayura199.github.io%2fpanduan-install-routeros-mikrotik%2f&amp;text=Panduan%20Install%20RouterOS%20Mikrotik%20Pada%20Virtual%20Box" target="_blank" title="Share on Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/mikrotik/">Mikrotik</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/contoh/" class="prev" rel="prev" title="Kamu tahu?"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Kamu tahu?</a>
+            <a href="/mengenai-tpc-ip/" class="next" rel="next" title="Mengenal TCP/IP: Fondasi Komunikasi Jaringan">Mengenal TCP/IP: Fondasi Komunikasi Jaringan<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.138.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2024 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Bayu Anggara</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js"></script><script>window.config={"comment":{},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script src="/js/theme.min.js"></script></body>
+</html>
