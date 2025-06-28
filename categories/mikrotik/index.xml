@@ -26,7 +26,7 @@
 <p>RouterOS adalah <code>sistem operasi</code> berbasis <code>Linux</code> yang dikembangkan oleh MikroTik. Sistem operasi ini dirancang khusus untuk keperluan routing, firewall, bandwidth management, VPN, dan berbagai fitur jaringan lainnya. RouterOS bisa diinstal di komputer biasa (PC) dan memiliki fitur yang <code>melebihi</code> sebuah <code>“router”</code>.</p>]]></description>
 </item>
 <item>
-    <title>MikroTik | Backup dan Restore Konfigurasi RouterOS</title>
+    <title>Mikrotik | Backup dan Restore Konfigurasi RouterOS</title>
     <link>https://bayura199.github.io/mikrotik-backup-restore/</link>
     <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
     <author>Bayu Anggara</author>

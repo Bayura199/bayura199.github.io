@@ -36,7 +36,7 @@
 <p>RouterOS adalah <code>sistem operasi</code> berbasis <code>Linux</code> yang dikembangkan oleh MikroTik. Sistem operasi ini dirancang khusus untuk keperluan routing, firewall, bandwidth management, VPN, dan berbagai fitur jaringan lainnya. RouterOS bisa diinstal di komputer biasa (PC) dan memiliki fitur yang <code>melebihi</code> sebuah <code>“router”</code>.</p>]]></description>
 </item>
 <item>
-    <title>MikroTik | Backup dan Restore Konfigurasi RouterOS</title>
+    <title>Mikrotik | Backup dan Restore Konfigurasi RouterOS</title>
     <link>https://bayura199.github.io/mikrotik-backup-restore/</link>
     <pubDate>Tue, 17 Jun 2025 00:00:00 &#43;0000</pubDate>
     <author>Bayu Anggara</author>
@@ -52,14 +52,6 @@
     <description><![CDATA[Tahu kah kamu kalau di MikroTik kita bisa bikin banyak user dengan akses yang berbeda-beda? Jadi nggak semua orang harus pakai akun admin. Fitur ini berguna banget buat membagi tugas, menjaga keamanan, dan memudahkan pengelolaan jaringan, apalagi kalau mulai ada tim atau teman yang bantuin.]]></description>
 </item>
 <item>
-    <title>Panduan Setup dan Permasalahan Umum Avaya 1608-I  (IP Phone seri 1600)</title>
-    <link>https://bayura199.github.io/panduan-avaya/</link>
-    <pubDate>Wed, 18 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/panduan-avaya/</guid>
-    <description><![CDATA[<p>Avaya 1608-I adalah IP Phone seri 1600 yang umum digunakan untuk sistem komunikasi VoIP berbasis <code>Avaya Communication Manager</code> atau IP Office. Pada artikel kali ini akan membahas panduan <code>setup</code> perangkat Avaya 1608-I, mulai dari langkah awal instalasi hingga konfigurasi dasar yang perlu diperhatikan. Selain itu, artikel ini juga akan mengulas beberapa <code>permasalahan umum</code> yang sering terjadi pada perangkat Avaya 1608-I, seperti error jaringan, konflik IP, tidak bisa login, lengkap dengan solusi praktis untuk mengatasinya.</p>]]></description>
-</item>
-<item>
     <title>Panduan Adopt &amp; Setting Access Point UniFi U6-Pro ke UniFi Controller</title>
     <link>https://bayura199.github.io/panduan-adopt-u6-pro/</link>
     <pubDate>Tue, 10 Dec 2024 00:00:00 &#43;0000</pubDate>
@@ -68,6 +60,30 @@
     <description><![CDATA[<p>Perangkat UniFi U6-Pro adalah access point dari <code>Ubiquiti</code> yang mendukung <a href="https://www.intel.co.id/content/www/id/id/gaming/resources/wifi-6.html" target="_blank">WiFi 6</a> dan banyak digunakan di jaringan perusahaan atau institusi. Untuk bisa mengelola dan memantau perangkat ini, kita perlu melakukan proses <code>adoption</code> ke UniFi Controller (UniFi Network Application).</p>
 <p>Berikut langkah-langkahnya secara urutan teknis dan lengkap:</p>
 <hr>]]></description>
+</item>
+<item>
+    <title>Panduan Setup dan Permasalahan Umum Avaya 1608-I  (IP Phone seri 1600)</title>
+    <link>https://bayura199.github.io/panduan-avaya/</link>
+    <pubDate>Fri, 18 Oct 2024 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/panduan-avaya/</guid>
+    <description><![CDATA[<p>Avaya 1608-I adalah IP Phone seri 1600 yang umum digunakan untuk sistem komunikasi VoIP berbasis <code>Avaya Communication Manager</code> atau IP Office. Pada artikel kali ini akan membahas panduan <code>setup</code> perangkat Avaya 1608-I, mulai dari langkah awal instalasi hingga konfigurasi dasar yang perlu diperhatikan. Selain itu, artikel ini juga akan mengulas beberapa <code>permasalahan umum</code> yang sering terjadi pada perangkat Avaya 1608-I, seperti error jaringan, konflik IP, tidak bisa login, lengkap dengan solusi praktis untuk mengatasinya.</p>]]></description>
+</item>
+<item>
+    <title>Panduan Tentang Kapan, Bagaimana dan Apa Yang Harus Dilakukan Saat Install Ulang Windows 10 atau 11</title>
+    <link>https://bayura199.github.io/panduan-install-ulang-windows/</link>
+    <pubDate>Tue, 17 Sep 2024 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/panduan-install-ulang-windows/</guid>
+    <description><![CDATA[Panduan ini menjelaskan secara lengkap langkah-langkah instalasi ulang Windows 10/11 --- baik melalui flashdisk maupun fitur reset bawaan Windows.]]></description>
+</item>
+<item>
+    <title>Basic Markdown Syntax</title>
+    <link>https://bayura199.github.io/basic-markdown/</link>
+    <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/basic-markdown/</guid>
+    <description><![CDATA[<p>Artikel ini menawarkan contoh dasar sintaks Markdown yang dapat digunakan dalam file konten Hugo.</p>]]></description>
 </item>
 <item>
     <title>Hati Selalu Gelisah, Kenapa?</title>
@@ -82,26 +98,6 @@
 <p>Pernah merasa semua target udah tercapai, tapi tetap gak puas?<br>
 Atau saat kamu udah dikelilingi orang-orang baik, tapi tetap ngerasa sendirian?<br>
 Rasanya kayak… ada satu bagian dalam diri yang hilang, tapi kita sendiri gak bisa kasih nama untuk itu.</p>]]></description>
-</item>
-<item>
-    <title>Apakah Kamu Benar-Benar Sendiri?</title>
-    <link>https://bayura199.github.io/catatan-alone-really/</link>
-    <pubDate>Mon, 17 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/catatan-alone-really/</guid>
-    <description><![CDATA[Aku Merasa Sendiri. Itu kalimat yang seringkali muncul, entah disuarakan atau hanya terlintas dalam hati. Di tengah keramaian, di antara scroll tanpa henti, atau saat malam mulai sunyi, perasaan itu muncul: Sendiri. Tapi, apakah kamu benar-benar sendiri?....]]></description>
-</item>
-<item>
-    <title>Laptop atau PC Lemot? Yuk Pahami Penyebab Laptop/PC Lemot</title>
-    <link>https://bayura199.github.io/panduan-komputer-lemot/</link>
-    <pubDate>Mon, 17 Jun 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/panduan-komputer-lemot/</guid>
-    <description><![CDATA[<p>Pernah nggak sih, lagi buka tugas atau kerjaan, eh… laptop-nya malah lemot banget. Baru buka Chrome sama Word aja udah ngeden. Nah, daripada langsung emosi atau buru-buru pengen beli laptop baru, mending kita pahami dulu apa aja sih penyebabnya, dan gimana cara ngatasinnya.</p>
-<p>Yuk, gas!</p>
-<hr>
-<h2 id="1-ram-kecil-dan-udah-kepenuhan">1. RAM Kecil dan Udah Kepenuhan</h2>
-<p>RAM itu ibarat <strong><code>meja kerja</code></strong> buat sistem operasi. Makin <code>besar</code> kapasitas RAM, makin <code>banyak</code> aplikasi dan proses yang bisa jalan barengan tanpa bikin laptop ngos-ngosan. Tapi kalau RAM-nya <code>kecil</code>, baru buka dua atau tiga aplikasi aja udah <code>ngelag</code>, apalagi kalau sambil browsing sambil dengerin musik dan buka dokumen kerjaan.</p>]]></description>
 </item>
 </channel>
 </rss>
