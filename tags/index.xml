@@ -3,7 +3,15 @@
         <title>Tags - Tag - MyArsip</title>
         <link>https://bayura199.github.io/tags/</link>
         <description>Tags - Tag - MyArsip</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Sat, 28 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Sun, 29 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Mikortik</title>
+    <link>https://bayura199.github.io/tags/mikortik/</link>
+    <pubDate>Sun, 29 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/tags/mikortik/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Mikrotik</title>
     <link>https://bayura199.github.io/tags/mikrotik/</link>
     <pubDate>Sat, 28 Jun 2025 00:00:00 &#43;0000</pubDate>
@@ -73,14 +81,6 @@
     <pubDate>Wed, 25 Sep 2024 00:00:00 &#43;0000</pubDate>
     <author>Bayu Anggara</author>
     <guid>https://bayura199.github.io/tags/hati-gelisah/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Install Ulang</title>
-    <link>https://bayura199.github.io/tags/install-ulang/</link>
-    <pubDate>Tue, 17 Sep 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/install-ulang/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

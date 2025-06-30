@@ -3,7 +3,23 @@
         <title>All Posts - MyArsip</title>
         <link>https://bayura199.github.io/posts/</link>
         <description>All Posts | MyArsip</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Sat, 28 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Sun, 29 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Mikrotik | The Power Of Management Bandwidth</title>
+    <link>https://bayura199.github.io/mikrotik-the-power-bandwidth/</link>
+    <pubDate>Sun, 29 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/mikrotik-the-power-bandwidth/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Nikmat Tuhan Mana Lagi Yang Kamu Dustakan</title>
+    <link>https://bayura199.github.io/catatan-maka-nikmat-tuhan-mana-lagi-yang-kamu-dustakan/</link>
+    <pubDate>Sun, 29 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/catatan-maka-nikmat-tuhan-mana-lagi-yang-kamu-dustakan/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Mikrotik | Backup dan Restore Konfigurasi RouterOS</title>
     <link>https://bayura199.github.io/mikrotik-backup-restore/</link>
     <pubDate>Sat, 28 Jun 2025 00:00:00 &#43;0000</pubDate>
@@ -74,32 +90,6 @@
     <author>Bayu Anggara</author>
     <guid>https://bayura199.github.io/panduan-avaya/</guid>
     <description><![CDATA[<p>Avaya 1608-I adalah IP Phone seri 1600 yang umum digunakan untuk sistem komunikasi VoIP berbasis <code>Avaya Communication Manager</code> atau IP Office. Pada artikel kali ini akan membahas panduan <code>setup</code> perangkat Avaya 1608-I, mulai dari langkah awal instalasi hingga konfigurasi dasar yang perlu diperhatikan. Selain itu, artikel ini juga akan mengulas beberapa <code>permasalahan umum</code> yang sering terjadi pada perangkat Avaya 1608-I, seperti error jaringan, konflik IP, tidak bisa login, lengkap dengan solusi praktis untuk mengatasinya.</p>]]></description>
-</item>
-<item>
-    <title>Laptop atau PC Lemot? Yuk Pahami Penyebab Laptop/PC Lemot</title>
-    <link>https://bayura199.github.io/panduan-komputer-lemot/</link>
-    <pubDate>Thu, 10 Oct 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/panduan-komputer-lemot/</guid>
-    <description><![CDATA[<p>Pernah nggak sih, lagi buka tugas atau kerjaan, eh… laptop-nya malah lemot banget. Baru buka Chrome sama Word aja udah ngeden. Nah, daripada langsung emosi atau buru-buru pengen beli laptop baru, mending kita pahami dulu apa aja sih penyebabnya, dan gimana cara ngatasinnya.</p>
-<p>Yuk, gas!</p>
-<hr>
-<h2 id="1-ram-kecil-dan-udah-kepenuhan">1. RAM Kecil dan Udah Kepenuhan</h2>
-<p>RAM itu ibarat <strong><code>meja kerja</code></strong> buat sistem operasi. Makin <code>besar</code> kapasitas RAM, makin <code>banyak</code> aplikasi dan proses yang bisa jalan barengan tanpa bikin laptop ngos-ngosan. Tapi kalau RAM-nya <code>kecil</code>, baru buka dua atau tiga aplikasi aja udah <code>ngelag</code>, apalagi kalau sambil browsing sambil dengerin musik dan buka dokumen kerjaan.</p>]]></description>
-</item>
-<item>
-    <title>Hati Selalu Gelisah, Kenapa?</title>
-    <link>https://bayura199.github.io/catatan-hati-gelisah/</link>
-    <pubDate>Wed, 25 Sep 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/catatan-hati-gelisah/</guid>
-    <description><![CDATA[<p>Kadang, kita bisa kelihatan bahagia di luar — senyum lebar, aktif di media sosial, ikut nongkrong sana-sini. Tapi diam-diam, dalam ruang hati yang paling sunyi, ada yang terasa kosong. Gelisah. Resah. Seperti ada yang belum selesai. Tapi kita pun bingung… sebenarnya apa? Gelisah itu datang tanpa izin, menetap tanpa sebab yang jelas. Lalu pergi — hanya untuk kembali lagi. Dan kita pun bertanya,<br>
-<strong>&ldquo;Kenapa ya, hati ku selalu gelisah?&rdquo;</strong></p>
-<hr>
-<h2 id="ada-yang-hilang-tapi-tak-terdefinisikan">Ada yang Hilang, Tapi Tak Terdefinisikan</h2>
-<p>Pernah merasa semua target udah tercapai, tapi tetap gak puas?<br>
-Atau saat kamu udah dikelilingi orang-orang baik, tapi tetap ngerasa sendirian?<br>
-Rasanya kayak… ada satu bagian dalam diri yang hilang, tapi kita sendiri gak bisa kasih nama untuk itu.</p>]]></description>
 </item>
 </channel>
 </rss>

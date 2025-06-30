@@ -47,8 +47,8 @@ Kita boleh sibuk, boleh mengejar dunia… tapi jangan sampai kehilangan diri sen
 
 ## Jalan Pulang Itu Selalu Terbuka
 
-Mau sejauh apapun kita berlari, pintu pulang itu gak pernah tertutup. Dan gak harus dengan sholat yang panjang, atau tangisan tengah malam. Kadang cukup dengan duduk diam, menatap langit, dan membisikkan dalam hati:  
-*"Ya Allah, aku lelah. Aku rindu. Aku ingin tenang."*
+Mau sejauh apapun kita berlari, pintu pulang itu gak pernah tertutup. Dan gak harus/selalu dengan sholat yang panjang, atau tangisan tengah malam. Kadang cukup dengan duduk diam, menatap langit, dan membisikkan dalam hati:  
+*"Ya Rabb, aku lelah. Aku rindu. Aku ingin tenang."*
 Lalu diam. Biarkan ketenangan itu turun.  
 Karena:
 
@@ -66,8 +66,7 @@ Gelisah itu bukan musuh. Dia datang sebagai pengingat, bukan hukuman. Pengingat 
 > *Mungkin Allah sedang berkata lembut:*  
 > **“Berhentilah sejenak. Aku ada di sini. Pulanglah.”**
 
-Jadi, kalau hari ini kamu sedang gelisah, jangan langsung mencari pelarian. Cobalah duduk tenang… dan izinkan hatimu menyapa-Nya lagi. Karena tenang itu, selalu ada…  
-**bagi mereka yang ingat kepada-Nya.**
+Jadi, kalau hari ini kamu sedang gelisah, jangan langsung mencari pelarian. Cobalah duduk tenang… dan izinkan hatimu menyapa-Nya lagi. Karena tenang itu, selalu ada… **bagi mereka yang ingat kepada-Nya.**
 
 ---
 
