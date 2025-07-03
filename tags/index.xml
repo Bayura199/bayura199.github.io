@@ -3,20 +3,28 @@
         <title>Tags - Tag - MyArsip</title>
         <link>https://bayura199.github.io/tags/</link>
         <description>Tags - Tag - MyArsip</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Sun, 29 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Mikrotik</title>
+    <link>https://bayura199.github.io/tags/mikrotik/</link>
+    <pubDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/tags/mikrotik/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Point to Point</title>
+    <link>https://bayura199.github.io/tags/point-to-point/</link>
+    <pubDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/tags/point-to-point/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Mikortik</title>
     <link>https://bayura199.github.io/tags/mikortik/</link>
     <pubDate>Sun, 29 Jun 2025 00:00:00 &#43;0000</pubDate>
     <author>Bayu Anggara</author>
     <guid>https://bayura199.github.io/tags/mikortik/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Mikrotik</title>
-    <link>https://bayura199.github.io/tags/mikrotik/</link>
-    <pubDate>Sat, 28 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/mikrotik/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -44,6 +52,22 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
+    <title>Kabel</title>
+    <link>https://bayura199.github.io/tags/kabel/</link>
+    <pubDate>Thu, 12 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/tags/kabel/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Support</title>
+    <link>https://bayura199.github.io/tags/support/</link>
+    <pubDate>Thu, 12 Dec 2024 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/tags/support/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Access Point</title>
     <link>https://bayura199.github.io/tags/access-point/</link>
     <pubDate>Tue, 10 Dec 2024 00:00:00 &#43;0000</pubDate>
@@ -57,30 +81,6 @@
     <pubDate>Fri, 18 Oct 2024 00:00:00 &#43;0000</pubDate>
     <author>Bayu Anggara</author>
     <guid>https://bayura199.github.io/tags/avaya/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Support</title>
-    <link>https://bayura199.github.io/tags/support/</link>
-    <pubDate>Fri, 18 Oct 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/support/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Laptop Lemot</title>
-    <link>https://bayura199.github.io/tags/laptop-lemot/</link>
-    <pubDate>Thu, 10 Oct 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/laptop-lemot/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Hati Gelisah</title>
-    <link>https://bayura199.github.io/tags/hati-gelisah/</link>
-    <pubDate>Wed, 25 Sep 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/hati-gelisah/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

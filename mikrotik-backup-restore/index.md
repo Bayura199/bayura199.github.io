@@ -5,7 +5,7 @@
 
 Kamu tau ga kalau `backup` ataupun `restore` sistem itu `penting banget` buat ngejaga konfigurasi MikroTik kamu tetap aman. Bayangin aja kalau router tiba-tiba error, ke-reset, atau harus ganti perangkat tanpa backup, semua setting yang udah kamu buat bisa `hilang` begitu aja.
 
-Dengan fitur ini, kamu bisa `menyimpan` semua konfigurasi penting dan `mengembalikannya` kapan aja. Cocok banget buat jaga-jaga sebelum `upgrade` firmware, `reset` router, atau sekadar `clone` konfigurasi ke perangkat lain.
+Dengan fitur Backup dan Restore dari Mikrotik, kamu bisa `menyimpan` semua konfigurasi penting dan `mengembalikannya` kapan aja. Cocok banget buat jaga-jaga sebelum `upgrade` firmware, `reset` router, atau sekadar `clone` konfigurasi ke perangkat lain.
 
 ---
 ## Kenapa Backup Itu Penting?

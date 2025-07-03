@@ -31,4 +31,4 @@ Masalah umum di jaringan tanpa manajemen bandwidth:
 
 ---
 
-![Performance](/images/ram.png "Task Manager")
+![](/images/xyz.png "xyz")

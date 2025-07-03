@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Point to Point - Tag - MyArsip</title>
+        <link>https://bayura199.github.io/tags/point-to-point/</link>
+        <description>Point to Point - Tag - MyArsip</description>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/point-to-point/" rel="self" type="application/rss+xml" /><item>
+    <title>Mikrotik | Konfigurasi PtP LHG XL 52 ac Sebagai AP dan Client</title>
+    <link>https://bayura199.github.io/mikrotik-konfigurasi-ptp-lhg-xl/</link>
+    <pubDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/mikrotik-konfigurasi-ptp-lhg-xl/</guid>
+    <description><![CDATA[<p>Artikel ini membahas langkah-langkah konfigurasi perangkat MikroTik LHG XL 52 ac dalam mode Point to Point (PtP), di mana satu perangkat disetel sebagai Access Point (AP) dan satu lagi sebagai Client (Station). Panduan ini cocok untuk menghubungkan dua lokasi berbeda menggunakan jaringan wireless jarak jauh dengan koneksi yang stabil dan efisien.</p>]]></description>
+</item>
+</channel>
+</rss>
