@@ -3,54 +3,53 @@
 
 <!--more-->
 
-Kabel merupakan komponen penting dalam dunia teknik, baik di bidang jaringan komputer, instalasi listrik, maupun sistem audio-video.  
-Setiap jenis kabel memiliki **struktur dan fungsi berbeda**, disesuaikan dengan kebutuhan transmisi data, daya listrik, atau sinyal.
-
-Artikel ini akan membahas **jenis-jenis kabel paling umum** yang sering digunakan, lengkap dengan **fungsi dan karakteristik utamanya**.
+Kabel merupakan komponen penting dalam dunia teknik, baik di bidang jaringan komputer, instalasi listrik, maupun sistem audio-video. Setiap jenis kabel memiliki `struktur` dan `fungsi berbeda`, disesuaikan dengan kebutuhan transmisi data, daya listrik, atau sinyal. Artikel ini akan membahas `jenis-jenis kabel paling umum` yang sering digunakan, lengkap dengan fungsi dan karakteristik utamanya.
 
 ---
 
 ## Kabel Jaringan / Data
+Kabel jaringan adalah `media penghantar` yang digunakan untuk mentransmisikan `data` antar perangkat jaringan. Jenis kabel ini umum dijumpai di perkantoran, sekolah, rumah, dan pusat data, terutama dalam jaringan LAN (Local Area Network). Terdapat berbagai jenis kabel jaringan seperti UTP, STP, dan fiber optic, masing-masing memiliki perbedaan dari sisi kecepatan, jangkauan, dan ketahanan terhadap interferensi.
 
-### UTP (Unshielded Twisted Pair)
+### 1. UTP (Unshielded Twisted Pair)
+UTP adalah jenis kabel jaringan yang paling umum digunakan untuk LAN. Disebut `"Unshielded"` karena `tidak memiliki` pelindung tambahan selain isolasi plastik luar.
 
-Kabel ini terdiri dari **empat pasang kabel berpilin** tanpa pelindung tambahan.
+**Fungsi:** Mentransmisikan data antar perangkat dalam jaringan komputer. 
 
-- Digunakan dalam jaringan komputer LAN
-- Paling umum: **CAT5e**, **CAT6**, dan **CAT6A**
-- Ujung kabel biasanya menggunakan konektor **RJ-45**
+**Struktur:** Terdiri dari 4 pasang kawat tembaga yang dipilin (twisted) untuk mengurangi interferensi. 
+
+**Karakteristik:** Murah, mudah dipasang, namun lebih rentan terhadap gangguan elektromagnetik. 
+
+**Type paling umum:**  CAT5e, CAT6 dan CAT6A
+
 ![src: pemasangan.com](images/utp.png "Kabel UTP")
 
----
-
-### STP (Shielded Twisted Pair)
-
-Mirip seperti UTP, namun dilengkapi **lapisan pelindung (shielding)** untuk menangkal interferensi elektromagnetik.
-
-- Digunakan di area industri atau tempat dengan banyak gangguan sinyal
-- Bisa mengurangi noise dan menjaga kestabilan transmisi
-
-> 🖼️ *Tambahkan gambar STP dengan struktur lapisan pelindungnya*
+<small> baca juga : [Perbedaan CAT5e, CAT6 dan CAT6A](index.md) </small>
 
 ---
+### 2. STP (Shielded Twisted Pair)
+STP adalah `versi UTP` yang dilengkapi `pelindung tambahan` untuk menangkal interferensi.
 
-### Coaxial
+**Fungsi**: Menghubungkan perangkat jaringan di lingkungan yang penuh gangguan sinyal.
 
-Kabel ini memiliki **inti konduktor tunggal** yang dilapisi isolator, pelindung logam, dan pelapis luar.
+**Struktur**: Sama seperti UTP tapi tiap pasang kabel dilapisi foil (shielding).
 
-- Digunakan pada **TV kabel**, **radio**, dan **CCTV analog**
-- Konektornya: BNC atau F-type
-
-> 🖼️ *Tambahkan gambar kabel coaxial potongan melintang*
+**Karakteristik:** Lebih stabil dan tahan interferensi, tapi harganya lebih mahal.
 
 ---
+![src: made-in-china.com](images/stp.png "Kabel STP")
 
+### 3. Fiber Optik
+Fiber optic adalah kabel jaringan yang menggunakan cahaya (bukan listrik) untuk mengirimkan data.
+
+Fungsi: Mengirimkan data dengan kecepatan tinggi dan jarak jauh.
+
+Struktur: Inti kaca/plastik sebagai jalur cahaya, cladding (pemantul cahaya), dan pelindung luar.
+
+Karakteristik: Super cepat, tahan interferensi, cocok untuk koneksi antar gedung, tapi mahal dan lebih rumit pemasangannya.
+![](image.png "Kabel Fiber Optik")
+
+---
 ### Fiber Optic
-
-Menggunakan **serat kaca atau plastik** untuk menghantarkan cahaya sebagai media transmisi data.
-
-- Kecepatan tinggi dan tahan gangguan elektromagnetik
-- Cocok untuk jaringan antar gedung atau backbone ISP
 
 Jenis:
 - **Single-mode**: untuk jarak jauh
