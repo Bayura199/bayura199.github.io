@@ -3,7 +3,23 @@
         <title>Tags - Tag - MyArsip</title>
         <link>https://bayura199.github.io/tags/</link>
         <description>Tags - Tag - MyArsip</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Kesehatan Mental</title>
+    <link>https://bayura199.github.io/tags/kesehatan-mental/</link>
+    <pubDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/tags/kesehatan-mental/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Perfeksionisme</title>
+    <link>https://bayura199.github.io/tags/perfeksionisme/</link>
+    <pubDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/tags/perfeksionisme/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Mikrotik</title>
     <link>https://bayura199.github.io/tags/mikrotik/</link>
     <pubDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</pubDate>
@@ -44,14 +60,6 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>Kisah</title>
-    <link>https://bayura199.github.io/tags/kisah/</link>
-    <pubDate>Wed, 01 Jan 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/kisah/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>Kabel</title>
     <link>https://bayura199.github.io/tags/kabel/</link>
     <pubDate>Thu, 12 Dec 2024 00:00:00 &#43;0000</pubDate>
@@ -73,14 +81,6 @@
     <pubDate>Tue, 10 Dec 2024 00:00:00 &#43;0000</pubDate>
     <author>Bayu Anggara</author>
     <guid>https://bayura199.github.io/tags/access-point/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Avaya</title>
-    <link>https://bayura199.github.io/tags/avaya/</link>
-    <pubDate>Fri, 18 Oct 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/avaya/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

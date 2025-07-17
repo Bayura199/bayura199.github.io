@@ -3,7 +3,15 @@
         <title>All Posts - MyArsip</title>
         <link>https://bayura199.github.io/posts/</link>
         <description>All Posts | MyArsip</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Apakah Perfeksionisme Selalu Buruk?</title>
+    <link>https://bayura199.github.io/perfeksionisme/</link>
+    <pubDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/perfeksionisme/</guid>
+    <description><![CDATA[Perfeksionisme adalah dorongan psikologis untuk mencapai hasil tanpa cacat, sering kali ditandai dengan penilaian diri yang sangat kritis dan ketakutan terhadap penilaian negatif dari orang lain. Perfeksionisme tidak hanya soal standar tinggi, tetapi juga soal kekhawatiran berlebihan terhadap kesalahan dan keraguan terhadap kompetensi diri...]]></description>
+</item>
+<item>
     <title>Mikrotik | Konfigurasi PtP LHG XL 52 ac Sebagai AP dan Client</title>
     <link>https://bayura199.github.io/mikrotik-konfigurasi-ptp-lhg-xl/</link>
     <pubDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</pubDate>
@@ -80,14 +88,6 @@
     <author>Bayu Anggara</author>
     <guid>https://bayura199.github.io/catatan-alone-really/</guid>
     <description><![CDATA[Aku Merasa Sendiri. Itu kalimat yang seringkali muncul, entah disuarakan atau hanya terlintas dalam hati. Di tengah keramaian, di antara scroll tanpa henti, atau saat malam mulai sunyi, perasaan itu muncul: Sendiri. Tapi, apakah kamu benar-benar sendiri?....]]></description>
-</item>
-<item>
-    <title>Mengenal Jenis Kabel: Fungsi dan Karakteristiknya</title>
-    <link>https://bayura199.github.io/mengenal-jenis-kabel/</link>
-    <pubDate>Thu, 12 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/mengenal-jenis-kabel/</guid>
-    <description><![CDATA[Kabel merupakan komponen penting dalam dunia teknik, baik di bidang jaringan komputer, instalasi listrik, maupun sistem audio-video. Setiap jenis kabel memiliki struktur dan fungsi berbeda, disesuaikan dengan kebutuhan transmisi data, daya listrik, atau sinyal. Artikel ini akan membahas jenis-jenis kabel paling umum yang sering digunakan, lengkap dengan fungsi dan karakteristik utamanya.]]></description>
 </item>
 </channel>
 </rss>
