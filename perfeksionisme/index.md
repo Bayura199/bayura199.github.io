@@ -5,14 +5,16 @@
 
 ## Apa Itu Perfeksionisme?
 
-Perfeksionisme adalah dorongan psikologis untuk mencapai hasil tanpa cacat, sering kali ditandai dengan penilaian diri yang sangat kritis dan ketakutan terhadap penilaian negatif dari orang lain. Menurut Frost et al. (1990), perfeksionisme tidak hanya soal standar tinggi, tetapi juga soal kekhawatiran berlebihan terhadap kesalahan dan keraguan terhadap kompetensi diri.
+Perfeksionisme adalah dorongan psikologis untuk mencapai hasil tanpa cacat, sering kali ditandai dengan penilaian diri yang sangat kritis dan ketakutan terhadap penilaian negatif dari orang lain. Menurut Frost et al. (1990), perfeksionisme tidak hanya soal standar tinggi, tetapi juga soal `kekhawatiran berlebihan` terhadap kesalahan dan keraguan terhadap kompetensi diri.
 
-Tidak semua perfeksionis bersinar dalam produktivitas. Banyak di antaranya justru terjebak dalam lingkaran rasa takut gagal, bukan didorong oleh semangat untuk berkembang. Di sisi lain, individu berprestasi tinggi biasanya memiliki motivasi internal yang kuat, bukan sekadar dorongan untuk "sempurna" di mata orang lain.
+Tidak semua perfeksionis bersinar dalam produktivitas. Banyak di antaranya justru `terjebak` dalam `lingkaran rasa takut` gagal, bukan didorong oleh semangat untuk berkembang. Di sisi lain, individu berprestasi tinggi biasanya memiliki motivasi internal yang kuat, bukan sekadar dorongan untuk "sempurna" di mata orang lain.
 
 ---
 ## Apakah Saya Seorang Perfeksionis?
 
-Beberapa pertanyaan reflektif yang dapat membantu:
+Terkadang, perfeksionisme `bersembunyi` di balik kedok `sifat-sifat positif` seperti pencapaian tinggi, kedisiplinan, atau semangat berjuang tanpa lelah. Di lain waktu, perfeksionisme dapat `menyamar` sebagai standar yang `“normal”` atau bahkan sebagai `tuntutan` dari lingkungan sekitar, baik keluarga, pekerjaan, maupun media sosial. `Padahal`, tekanan itu sering kali berasal dari dalam `diri sendiri` yang merasa `harus` selalu lebih, selalu benar, dan selalu diterima.
+
+Jika kamu tidak yakin apakah perfeksionisme sedang menjadi masalah dalam hidupmu, coba jawab pertanyaan-pertanyaan reflektif berikut:
 
 1. Apakah kamu sulit merasa puas meski orang lain memuji hasilmu?
 
@@ -23,13 +25,20 @@ Beberapa pertanyaan reflektif yang dapat membantu:
 6. Apakah kamu merasa malu atau kecewa berlebihan pada diri sendiri saat tidak memenuhi ekspektasi yang sangat tinggi?
 7. Apakah kamu merasa bersalah atau marah pada diri sendiri ketika melakukan kesalahan kecil?
 
+{{< admonition warning "Catatan Reflektif" >}}
+Tidak semua orang perfeksionis `menyadari` bahwa mereka `sedang menekan` diri sendiri. Sering kali, tekanan itu sudah terasa seperti sesuatu yang “normal” atau bahkan menggangap itu sebagai `identitas diri` “aku mah da orang nya kayak ginii”. `Padahal`, yang terjadi bisa jadi adalah pola perfeksionisme maladaptif yang sudah tertanam sejak lama. Tanpa disadari, `dorongan` untuk selalu sempurna itu bukan lagi bentuk `motivasi sehat`, tapi `beban` psikologis yang terus menggerus ketenangan batin. 
+{{< /admonition >}}
 
-Jika kamu menjawab “ya” pada banyak pertanyaan tersebut, mungkin kamu memiliki kecenderungan perfeksionisme maladaptif. Menurut Dr. Gordon Flett dan Dr. Paul Hewitt, dua peneliti utama dalam bidang ini, perfeksionisme maladaptif erat kaitannya dengan harga diri yang bersyarat dan rasa takut kehilangan cinta atau penerimaan ketika gagal.
+Jika kamu menjawab `“ya”` pada banyak pertanyaan tersebut, mungkin kamu memiliki kecenderungan `perfeksionisme maladaptif`. Menurut Dr. Gordon Flett dan Dr. Paul Hewitt, dua peneliti utama dalam bidang ini, perfeksionisme maladaptif erat kaitannya dengan `harga diri yang bersyarat` dan rasa `takut kehilangan` cinta, kasih sayang, kenyamanan, rasa aman atau penerimaan ketika gagal.
+
+{{< admonition quote "Reflektif " >}}
+"Penting untuk bertanya kembali: apakah standar ini berasal dari nilai yang benar-benar diyakini, atau dari rasa takut tidak cukup baik?"
+{{< /admonition>}}
 
 ---
 ## Sisi Negatif Perfeksionisme (Maladaptive)
 
-Perfeksionisme maladaptif dapat berdampak serius terhadap kesejahteraan mental dan kehidupan sehari-hari. Beberapa konsekuensinya antara lain:
+Perfeksionisme maladaptif dapat berdampak serius terhadap `kesejahteraan mental` dan `kehidupan sehari-hari`. Beberapa konsekuensinya antara lain:
 
 - Kecemasan kronis dan stres berkepanjangan: Ketika standar sempurna tidak tercapai, tubuh dan pikiran terus berada dalam kondisi tertekan.
 - Burnout: Keinginan tak henti untuk selalu sempurna bisa menguras energi secara emosional dan fisik.
@@ -38,9 +47,9 @@ Perfeksionisme maladaptif dapat berdampak serius terhadap kesejahteraan mental d
 - Pola pikir "all-or-nothing": Satu kesalahan kecil terasa seperti kegagalan total, tidak ada ruang untuk "cukup baik".
 - Kesulitan menjalin hubungan yang sehat: Perfeksionis sering menarik diri atau terlalu kritis terhadap diri dan orang lain.
 
-Menurut model Perfectionism Social Disconnection Model (PSDM), perfeksionis maladaptif kerap mengalami keterputusan sosial karena mereka merasa tidak akan pernah cukup baik di mata orang lain. Akibatnya, mereka menjaga jarak atau menciptakan tembok antara diri mereka dan orang terdekat demi menjaga citra "sempurna".
+Menurut model Perfectionism Social Disconnection Model (PSDM), perfeksionis maladaptif kerap mengalami keterputusan sosial karena mereka `merasa tidak akan pernah cukup baik` di mata orang lain. Akibatnya, mereka `menjaga jarak` atau `menciptakan tembok` antara diri mereka dan orang terdekat demi menjaga citra `"sempurna"`.
 
-Perfeksionisme maladaptif juga dapat memperparah inner critic—suara batin yang terus-menerus menyalahkan dan menuntut. Dalam jangka panjang, ini dapat mengikis kepercayaan diri, bahkan menciptakan lingkaran setan antara rasa bersalah, penyesalan, dan ketakutan akan kegagalan.
+Perfeksionisme maladaptif juga dapat memperparah inner critic—suara batin yang `terus-menerus` menyalahkan dan menuntut. Dalam jangka panjang, ini dapat `mengikis` kepercayaan diri, bahkan menciptakan lingkaran setan antara rasa bersalah, penyesalan, dan ketakutan akan kegagalan.
 
 ## Sisi Positif Perfeksionisme (Adaptive)
 
@@ -51,24 +60,37 @@ Namun, tidak semua bentuk perfeksionisme bersifat merusak. Ada jenis perfeksioni
 - Meningkatkan rasa tanggung jawab dan pencapaian: Standar tinggi yang sehat mendorong kerja keras dan dedikasi.
 - Lebih resilien terhadap kegagalan: Mereka mampu mengelola kesalahan sebagai bagian dari proses belajar, bukan ancaman terhadap harga diri.
 
-Menurut Stoeber & Otto (2006), tipe ini berkaitan erat dengan pencapaian akademik dan profesional yang tinggi, serta hubungan interpersonal yang lebih sehat. Orang dengan perfeksionisme adaptif juga lebih fleksibel dan memiliki kontrol diri yang baik dalam mengelola tekanan.
+Menurut Stoeber & Otto (2006), tipe ini berkaitan erat dengan pencapaian akademik dan profesional yang tinggi, serta hubungan interpersonal yang `lebih sehat`. Orang dengan perfeksionisme adaptif juga lebih fleksibel dan memiliki `kontrol diri` yang baik dalam `mengelola tekanan`.
 
-Perfeksionisme adaptif mendorong individu untuk terus berkembang tanpa merasa hancur saat tidak sempurna. Ini bisa menjadi kekuatan bila dikombinasikan dengan belas kasih terhadap diri sendiri (self-compassion), sebagaimana disarankan oleh peneliti seperti Kristin Neff
+Perfeksionisme adaptif mendorong individu untuk terus berkembang `tanpa merasa hancur` saat tidak sempurna. Ini bisa menjadi kekuatan bila dikombinasikan dengan belas kasih terhadap diri sendiri (self-compassion), sebagaimana disarankan oleh peneliti seperti Kristin Neff.
 
 ---
 ## Akhirnya: Apakah Perfeksionisme Selalu Buruk?
 
-Tidak selalu. Perfeksionisme adaptif dapat menjadi kekuatan besar dalam mencapai kualitas kerja dan kepuasan pribadi. Namun jika perfeksionisme muncul dari ketakutan, kritik diri ekstrem, dan keinginan untuk selalu tampil sempurna di mata orang lain, maka itu bisa menjadi jebakan psikologis.
+Tidak selalu. Perfeksionisme adaptif dapat menjadi kekuatan besar dalam mencapai kualitas kerja dan kepuasan pribadi. Namun jika perfeksionisme muncul dari ketakutan, kritik diri ekstrem, dan keinginan untuk selalu tampil sempurna di mata orang lain, maka itu bisa menjadi `jebakan` psikologis.
 
-Menurut Dr. Brené Brown, perfeksionisme bukanlah tentang usaha menjadi yang terbaik, tetapi tentang mencoba menghindari rasa sakit dari penolakan dan rasa malu. Ia menyebut perfeksionisme sebagai "perisai"—yang kelihatannya melindungi, tapi justru membatasi pertumbuhan diri yang otentik.
+Menurut Dr. Brené Brown, `perfeksionisme` bukanlah tentang usaha `menjadi yang terbaik`, tetapi tentang `mencoba menghindari` rasa sakit dari penolakan dan rasa malu. Ia menyebut perfeksionisme sebagai `"perisai"`, yang kelihatannya melindungi, tapi justru membatasi pertumbuhan diri yang otentik.
+
+{{< admonition quote "Reflektif " >}}
+"Perfeksionisme bukanlah self-improvement. Itu adalah self-destruction yang tersamar."  
+<span style="display:block; text-align:right;"> Brené Brown, *Daring Greatly*</span> 
+{{< /admonition >}}
+
 
 ---
 ## Kesimpulan
 
-Perfeksionisme bukan musuh jika dijalani secara sadar, realistis, dan adaptif. Ia menjadi batu sandungan saat dijalani dengan kecemasan, penundaan, dan kritik diri yang tak henti-henti. Dengan mengenali polanya, kita bisa beralih dari pola perfectionism ke striving for excellence -- berusaha maksimal, tanpa terobsesi pada kesempurnaan.
+Perfeksionisme bukan musuh jika dijalani secara sadar, realistis, dan adaptif. Ia menjadi `batu sandungan` saat dijalani dengan kecemasan, penundaan, dan kritik diri yang tak henti-henti. Dengan mengenali polanya, kita bisa beralih dari pola perfectionism ke striving for excellence, berusaha maksimal `tanpa` terobsesi pada kesempurnaan.
 
-Kuncinya adalah mengenali bahwa nilai diri kita tidak ditentukan oleh hasil yang sempurna, tapi oleh proses dan keberanian untuk mencob -- bahkan ketika kemungkinan gagal itu ada.
+Kuncinya adalah mengenali bahwa `nilai diri` kita `tidak ditentukan` oleh hasil yang sempurna, tapi `oleh proses` dan `keberanian` untuk mencoba, bahkan ketika kemungkinan gagal itu ada.
 
+{{< admonition quote "Ingat Ini!" >}}
+"Menjadi `cukup baik` bukan berarti kamu gagal. Itu berarti kamu memberikan ruang bagi diri sendiri untuk tumbuh, belajar, dan bernapas tanpa harus `selalu sempurna.`" 
+
+Iyess...
+{{< /admonition >}}
+
+---
 ## Referensi
 - Brené Brown. (2012). Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead. Gotham Books.
 
