@@ -67,13 +67,13 @@ Perfeksionisme adaptif mendorong individu untuk terus berkembang `tanpa merasa h
 ---
 ## Akhirnya: Apakah Perfeksionisme Selalu Buruk?
 
-Tidak selalu. Perfeksionisme adaptif dapat menjadi kekuatan besar dalam mencapai kualitas kerja dan kepuasan pribadi. Namun jika perfeksionisme muncul dari ketakutan, kritik diri ekstrem, dan keinginan untuk selalu tampil sempurna di mata orang lain, maka itu bisa menjadi `jebakan` psikologis.
+Tidak selalu. Ada bentuk perfeksionisme yang bersifat sehat, disebut `perfeksionisme adaptif` yang bisa mendorong seseorang untuk berkembang, berusaha maksimal, dan meraih prestasi tinggi `tanpa kehilangan kendali` atas kesejahteraan mental. Namun, perfeksionisme juga bisa menjelma menjadi tekanan yang melelahkan (maladaptif). Saat dorongan untuk sempurna muncul dari ketakutan akan kegagalan atau penolakan, ia menjadi `jebakan` psikologis yang sulit dilepaskan.
 
-Menurut Dr. Brené Brown, `perfeksionisme` bukanlah tentang usaha `menjadi yang terbaik`, tetapi tentang `mencoba menghindari` rasa sakit dari penolakan dan rasa malu. Ia menyebut perfeksionisme sebagai `"perisai"`, yang kelihatannya melindungi, tapi justru membatasi pertumbuhan diri yang otentik.
+Dr. Brené Brown mengatakan bahwa perfeksionisme bukanlah bentuk perbaikan diri, melainkan cara kita mencoba `melindungi diri` dari `rasa malu` dan `penolakan`. Dalam bukunya Daring Greatly, ia menyebut perfeksionisme sebagai "perisai" yang terlihat melindungi, tapi justru membatasi pertumbuhan yang otentik.
 
 {{< admonition quote "Reflektif " >}}
-"Perfeksionisme bukanlah self-improvement. Itu adalah self-destruction yang tersamar."  
-<span style="display:block; text-align:right;"> Brené Brown, *Daring Greatly*</span> 
+"Ketidaksempurnaan bukanlah kekurangan, itu adalah pengingat bahwa kita semua sedang berjuang bersama."
+<span style="display:block; text-align:right;"> Brené Brown, *The Gifts of Imperfection*</span> 
 {{< /admonition >}}
 
 
