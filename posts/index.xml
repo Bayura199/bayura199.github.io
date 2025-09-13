@@ -3,7 +3,23 @@
         <title>All Posts - MyArsip</title>
         <link>https://bayura199.github.io/posts/</link>
         <description>All Posts | MyArsip</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 11 Sep 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Ketetapan Allah Itu Pasti!!</title>
+    <link>https://bayura199.github.io/ketetapan-allah/</link>
+    <pubDate>Thu, 11 Sep 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/ketetapan-allah/</guid>
+    <description><![CDATA[Hidup sering kali penuh dengan rencana. Ada yang berjalan mulus, ada yang tersendat, bahkan ada yang sama sekali tidak sesuai harapan. Kita kadang bertanya-tanya, “Kenapa harus begini? Kenapa bukan begitu? Kenapa saya harus mengalaminya? Kenapa dan Kenapa...”]]></description>
+</item>
+<item>
+    <title>Ketia Hidup Terasa Tak Punya Arah</title>
+    <link>https://bayura199.github.io/catatan-kosong/</link>
+    <pubDate>Tue, 22 Jul 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>https://bayura199.github.io/catatan-kosong/</guid>
+    <description><![CDATA[Ada hari-hari di mana segalanya terasa berat. Pagi datang, tetapi rasanya seperti tidak benar-benar bangun. Tubuh bergerak, berbicara, tersenyum, namun hati di dalamnya seolah kehilangan arah.]]></description>
+</item>
+<item>
     <title>Apakah Perfeksionisme Selalu Buruk?</title>
     <link>https://bayura199.github.io/perfeksionisme/</link>
     <pubDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</pubDate>
@@ -72,22 +88,6 @@
     <author>Bayu Anggara</author>
     <guid>https://bayura199.github.io/mengenai-tpc-ip/</guid>
     <description><![CDATA[Transmission Control Protocol/Internet Protocol (TCP/IP) merupakan kumpulan protokol komunikasi yang menjadi dasar dalam pertukaran data antar perangkat di jaringan komputer, baik jaringan lokal maupun internet. Struktur protokol ini mendefinisikan bagaimana data dibagi, dialamatkan, dikirimkan, dirutekan, dan diterima di jaringan.]]></description>
-</item>
-<item>
-    <title>Nikmat Tuhan Mana Lagi Yang Kamu Dustakan</title>
-    <link>https://bayura199.github.io/catatan-maka-nikmat-tuhan-mana-lagi-yang-kamu-dustakan/</link>
-    <pubDate>Mon, 03 Feb 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/catatan-maka-nikmat-tuhan-mana-lagi-yang-kamu-dustakan/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Apakah Kamu Benar-Benar Sendiri?</title>
-    <link>https://bayura199.github.io/catatan-alone-really/</link>
-    <pubDate>Wed, 01 Jan 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/catatan-alone-really/</guid>
-    <description><![CDATA[Aku Merasa Sendiri. Itu kalimat yang seringkali muncul, entah disuarakan atau hanya terlintas dalam hati. Di tengah keramaian, di antara scroll tanpa henti, atau saat malam mulai sunyi, perasaan itu muncul: Sendiri. Tapi, apakah kamu benar-benar sendiri?....]]></description>
 </item>
 </channel>
 </rss>
