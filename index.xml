@@ -3,17 +3,9 @@
         <title>MyArsip</title>
         <link>http://localhost:1313/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 11 Sep 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Apakah Kamu Benar-Benar Sendiri?</title>
-    <link>http://localhost:1313/bayu/</link>
-    <pubDate>Thu, 01 Jan 2026 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>http://localhost:1313/bayu/</guid>
-    <description><![CDATA[Aku Merasa Sendiri. Itu kalimat yang seringkali muncul, entah disuarakan atau hanya terlintas dalam hati. Di tengah keramaian, di antara scroll tanpa henti, atau saat malam mulai sunyi, perasaan itu muncul: Sendiri. Tapi, apakah kamu benar-benar sendiri?....]]></description>
-</item>
-<item>
     <title>Ketetapan Allah Itu Pasti!!</title>
     <link>http://localhost:1313/ketetapan-allah/</link>
     <pubDate>Thu, 11 Sep 2025 00:00:00 &#43;0000</pubDate>
@@ -90,6 +82,14 @@
     <description><![CDATA[<!-- more -->
 <p>Belum punya RouterBoard, mau coba buat lab? Tenang, kamu tetap bisa <code>belajar</code> MikroTik tanpa harus keluar <code>biaya</code> besar. Dengan bantuan <code>VirtualBox</code> dan <code>RouterOS</code>, kamu bisa bikin <code>lab virtual</code> sendiri di laptop. Praktis banget buat latihan konfigurasi dan ngasah skill jaringan.</p>
 <p>Di panduan ini, kamu bakal diajak <code>step-by-step</code> untuk install RouterOS MikroTik di VirtualBox, mulai dari persiapan sampai bisa login dan mulai ngoprek. Simpel, jelas, dan cocok banget buat pemula yang pengen mulai belajar dunia jaringan.</p>]]></description>
+</item>
+<item>
+    <title>Mengenal TCP/IP: Fondasi Komunikasi Jaringan</title>
+    <link>http://localhost:1313/mengenai-tpc-ip/</link>
+    <pubDate>Sat, 03 May 2025 00:00:00 &#43;0000</pubDate>
+    <author>Bayu Anggara</author>
+    <guid>http://localhost:1313/mengenai-tpc-ip/</guid>
+    <description><![CDATA[Transmission Control Protocol/Internet Protocol (TCP/IP) merupakan kumpulan protokol komunikasi yang menjadi dasar dalam pertukaran data antar perangkat di jaringan komputer, baik jaringan lokal maupun internet. Struktur protokol ini mendefinisikan bagaimana data dibagi, dialamatkan, dikirimkan, dirutekan, dan diterima di jaringan.]]></description>
 </item>
 </channel>
 </rss>
