@@ -1,87 +1,138 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tags - Tag - MyArsip</title>
-        <link>https://bayura199.github.io/tags/</link>
-        <description>Tags - Tag - MyArsip</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 11 Sep 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://bayura199.github.io/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Refleksi Diri</title>
-    <link>https://bayura199.github.io/tags/refleksi-diri/</link>
-    <pubDate>Thu, 11 Sep 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/refleksi-diri/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Kesehatan Mental</title>
-    <link>https://bayura199.github.io/tags/kesehatan-mental/</link>
-    <pubDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/kesehatan-mental/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Perfeksionisme</title>
-    <link>https://bayura199.github.io/tags/perfeksionisme/</link>
-    <pubDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/perfeksionisme/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Mikrotik</title>
-    <link>https://bayura199.github.io/tags/mikrotik/</link>
-    <pubDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/mikrotik/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Point to Point</title>
-    <link>https://bayura199.github.io/tags/point-to-point/</link>
-    <pubDate>Mon, 30 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/point-to-point/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Mikortik</title>
-    <link>https://bayura199.github.io/tags/mikortik/</link>
-    <pubDate>Sun, 29 Jun 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/mikortik/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Network</title>
-    <link>https://bayura199.github.io/tags/network/</link>
-    <pubDate>Sat, 03 May 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/network/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Feeling Alone</title>
-    <link>https://bayura199.github.io/tags/feeling-alone/</link>
-    <pubDate>Wed, 01 Jan 2025 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/feeling-alone/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Kabel</title>
-    <link>https://bayura199.github.io/tags/kabel/</link>
-    <pubDate>Thu, 12 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/kabel/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Support</title>
-    <link>https://bayura199.github.io/tags/support/</link>
-    <pubDate>Thu, 12 Dec 2024 00:00:00 &#43;0000</pubDate>
-    <author>Bayu Anggara</author>
-    <guid>https://bayura199.github.io/tags/support/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on MyArsip</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on MyArsip</description>
+    <generator>Hugo</generator>
+    <language>id</language>
+    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Refleksi Diri</title>
+      <link>http://localhost:1313/tags/refleksi-diri/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/refleksi-diri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kesehatan Mental</title>
+      <link>http://localhost:1313/tags/kesehatan-mental/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kesehatan-mental/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Perfeksionisme</title>
+      <link>http://localhost:1313/tags/perfeksionisme/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/perfeksionisme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mikrotik</title>
+      <link>http://localhost:1313/tags/mikrotik/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mikrotik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Point to Point</title>
+      <link>http://localhost:1313/tags/point-to-point/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/point-to-point/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mikortik</title>
+      <link>http://localhost:1313/tags/mikortik/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mikortik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network</title>
+      <link>http://localhost:1313/tags/network/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/network/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Feeling Alone</title>
+      <link>http://localhost:1313/tags/feeling-alone/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/feeling-alone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kabel</title>
+      <link>http://localhost:1313/tags/kabel/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kabel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Support</title>
+      <link>http://localhost:1313/tags/support/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/support/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Access Point</title>
+      <link>http://localhost:1313/tags/access-point/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/access-point/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Avaya</title>
+      <link>http://localhost:1313/tags/avaya/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/avaya/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laptop Lemot</title>
+      <link>http://localhost:1313/tags/laptop-lemot/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/laptop-lemot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hati Gelisah</title>
+      <link>http://localhost:1313/tags/hati-gelisah/</link>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hati-gelisah/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Install Ulang</title>
+      <link>http://localhost:1313/tags/install-ulang/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/install-ulang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/tags/windows/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML</title>
+      <link>http://localhost:1313/tags/html/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/tags/markdown/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/markdown/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>
