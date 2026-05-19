@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Kabel - Label - MyArsip</title>
-        <link>http://localhost:1313/tags/kabel/</link>
+        <link>http://localhost:64931/tags/kabel/</link>
         <description>Kabel - Label - MyArsip</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 12 Dec 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/kabel/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 12 Dec 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:64931/tags/kabel/" rel="self" type="application/rss+xml" /><item>
     <title>Mengenal Jenis Kabel: Fungsi dan Karakteristiknya</title>
-    <link>http://localhost:1313/mengenal-jenis-kabel/</link>
+    <link>http://localhost:64931/mengenal-jenis-kabel/</link>
     <pubDate>Thu, 12 Dec 2024 00:00:00 &#43;0000</pubDate>
     <author>Bayu Anggara</author>
-    <guid>http://localhost:1313/mengenal-jenis-kabel/</guid>
+    <guid>http://localhost:64931/mengenal-jenis-kabel/</guid>
     <description><![CDATA[Kabel merupakan komponen penting dalam dunia teknik, baik di bidang jaringan komputer, instalasi listrik, maupun sistem audio-video. Setiap jenis kabel memiliki struktur dan fungsi berbeda, disesuaikan dengan kebutuhan transmisi data, daya listrik, atau sinyal. Artikel ini akan membahas jenis-jenis kabel paling umum yang sering digunakan, lengkap dengan fungsi dan karakteristik utamanya.]]></description>
 </item>
 </channel>

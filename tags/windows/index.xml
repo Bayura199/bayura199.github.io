@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Windows - Label - MyArsip</title>
-        <link>http://localhost:1313/tags/windows/</link>
+        <link>http://localhost:64931/tags/windows/</link>
         <description>Windows - Label - MyArsip</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Tue, 17 Sep 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/windows/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Tue, 17 Sep 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:64931/tags/windows/" rel="self" type="application/rss+xml" /><item>
     <title>Panduan Tentang Kapan, Bagaimana dan Apa Yang Harus Dilakukan Saat Install Ulang Windows 10 atau 11</title>
-    <link>http://localhost:1313/panduan-install-ulang-windows/</link>
+    <link>http://localhost:64931/panduan-install-ulang-windows/</link>
     <pubDate>Tue, 17 Sep 2024 00:00:00 &#43;0000</pubDate>
     <author>Bayu Anggara</author>
-    <guid>http://localhost:1313/panduan-install-ulang-windows/</guid>
+    <guid>http://localhost:64931/panduan-install-ulang-windows/</guid>
     <description><![CDATA[Panduan ini menjelaskan secara lengkap langkah-langkah instalasi ulang Windows 10/11 --- baik melalui flashdisk maupun fitur reset bawaan Windows.]]></description>
 </item>
 </channel>

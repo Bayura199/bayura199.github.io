@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Perfeksionisme - Label - MyArsip</title>
-        <link>http://localhost:1313/tags/perfeksionisme/</link>
+        <link>http://localhost:64931/tags/perfeksionisme/</link>
         <description>Perfeksionisme - Label - MyArsip</description>
-        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/perfeksionisme/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>id</language><lastBuildDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:64931/tags/perfeksionisme/" rel="self" type="application/rss+xml" /><item>
     <title>Apakah Perfeksionisme Selalu Buruk?</title>
-    <link>http://localhost:1313/perfeksionisme/</link>
+    <link>http://localhost:64931/perfeksionisme/</link>
     <pubDate>Thu, 17 Jul 2025 00:00:00 &#43;0000</pubDate>
     <author>Bayu Anggara</author>
-    <guid>http://localhost:1313/perfeksionisme/</guid>
+    <guid>http://localhost:64931/perfeksionisme/</guid>
     <description><![CDATA[Perfeksionisme adalah dorongan psikologis untuk mencapai hasil tanpa cacat, sering kali ditandai dengan penilaian diri yang sangat kritis dan ketakutan terhadap penilaian negatif dari orang lain. Perfeksionisme tidak hanya soal standar tinggi, tetapi juga soal kekhawatiran berlebihan terhadap kesalahan dan keraguan terhadap kompetensi diri...]]></description>
 </item>
 </channel>
